@@ -19,7 +19,7 @@ El Dataset resultante de ésta practica es un achivo en formato CSV, el cuál co
  * tipo					(Indica el tipo de bien inmueble, es es casa, departamento, terreno / lote)
  * precio				(Precio de venta)
  * localizacion			(Ubicación del sector donde se encuentra el bien)
- * fecha_publicacion	(Fecha de publicación)
+ * fecha_publicacion	(Fecha de inicio de publicación)
  * area					(Área de construcción o dimensión del terreno / lote)
  * num_habitaciones		(Número de habitaciones)
  * proy      			(Nombre del proyecto inmobiliario)
