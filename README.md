@@ -1,9 +1,9 @@
-# VALORACIÓN DE INMUEBLES
+## VALORACIÓN DE INMUEBLES
 
-# TIPOLOGIA Y CICLO DE VIDA DE LOS DATOS
-# Máster Universitario de Ciencia de Datos - Universitat Oberta de Catalunya - Abril 2020
+## TIPOLOGIA Y CICLO DE VIDA DE LOS DATOS
+## Máster Universitario de Ciencia de Datos - Universitat Oberta de Catalunya - Abril 2020
 
-### Autores:
+## Autores:
 -  Tania Gualli Culqui
 -  Fernando Meza Ibarra
 
