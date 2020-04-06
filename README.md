@@ -1,5 +1,4 @@
 ## VALORACIÓN DE INMUEBLES
-
 ## TIPOLOGIA Y CICLO DE VIDA DE LOS DATOS
 ## Máster Universitario de Ciencia de Datos
 Universitat Oberta de Catalunya - Abril 2020
@@ -8,7 +7,7 @@ Universitat Oberta de Catalunya - Abril 2020
 -  Tania Gualli Culqui
 -  Fernando Meza Ibarra
 
-# Contexto
+## Contexto
 En Tipología y ciclo de vida de los datos, se obtienen datos de bienes muebles inmuebles ofertados por el portal inmobiliario PROPERATI. Para ello se utilzan técnicas de web Scraping a través del lenguaje Python.
 
 ## Objetivo:   
