@@ -34,7 +34,7 @@ Google flights: https://www.properati.com
 ## Contenido:  
  
 	* scr: Repositorio con el código Python.        
-	* pdf: Documento de la práctica de Web Scraping.         
+	* doc: Documento de la práctica de Web Scraping.         
 	* csv: Dataset en formato CSV (Insumo para Machine Learning).      
 
 
