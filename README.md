@@ -11,7 +11,7 @@ Universitat Oberta de Catalunya - Abril 2020
 En Tipología y ciclo de vida de los datos, se obtienen datos de bienes muebles inmuebles ofertados por el portal inmobiliario PROPERATI. Para ello se utilzan técnicas de web Scraping a través del lenguaje Python.
 
 ## Objetivo:   
-Construir un Dataset o conjunto de datos con una lista de características de todos los productos ofertados en todos los sectores de la ciudad de Quito, sobre los cuáles se pueda aplicar estadística inferencia y algoritmos de aprendizaje automático para poder aplicar modelos descriptivos y predictivos que permitan valorarlos. 
+Construir un Dataset o conjunto de datos con una lista de características de todos los productos ofertados en todos los sectores de la ciudad de Quito en Ecuador, sobre los cuáles se pueda aplicar estadística inferencial y algoritmos de aprendizaje automático para poder aplicar modelos descriptivos y predictivos que permitan valorarlos. 
 
 El Dataset resultante de ésta practica es un achivo en formato CSV, el cuál contiene los siguientes datos:
   
