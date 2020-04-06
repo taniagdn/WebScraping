@@ -7,7 +7,7 @@ Universitat Oberta de Catalunya - Abril 2020
 -  Tania Gualli Culqui
 -  Fernando Meza Ibarra
 
-## Contexto
+## Contexto:
 En Tipología y ciclo de vida de los datos, se obtienen datos de bienes muebles inmuebles ofertados por el portal inmobiliario PROPERATI. Para ello se utilzan técnicas de web Scraping a través del lenguaje Python.
 
 ## Objetivo:   
@@ -32,7 +32,7 @@ Se han obtenido alrededor de 1000 registros de publicaciones de los últimos 8 m
 Google flights: https://www.properati.com   
     
       
-## Contenido   
+## Contenido:  
 Investigación anterior: Esta carpeta contiene los datos recopilados durante la investigación preliminar de las páginas a rastrear.     
 	* scr: Repositorio con el código Python.        
 	* pdf: Documento de la práctica de Web Scraping.         
