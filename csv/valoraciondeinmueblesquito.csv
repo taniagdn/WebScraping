@@ -47,28 +47,28 @@ Torre Borealis: Departamentos. Suite Tercer Piso + Bodega Y Parqueadero;Departam
 Edificio Andalucía;Departamentos; 128220;Andalucía, Norte De Quito;12/febrero/2020;88;2;Proyecto inmobiliario
 Bronte;Departamentos; 100831;La Carolina, Iñaquito, Centro Norte;28/enero/2020;54;1;Proyecto inmobiliario
 Terrazas Sfera II;Departamentos; 151300;Monteserrin, Jipijapa, Centro Norte;30/enero/2020;;2;Proyecto inmobiliario
-El Belén Terrenos;Lote; 23500;Cutuglagua, Sur De Quito;12/marzo/2020;;;Proyecto inmobiliario
+El Belén Terrenos;Lote; 21250;Cutuglagua, Sur De Quito;12/marzo/2020;;;Proyecto inmobiliario
 Bronte;Oficina / Consultorio; 137331;La Carolina, Iñaquito, Centro Norte;28/enero/2020;;;Proyecto inmobiliario
 Parque La Viña;Casa; 412545;Tumbaco, Valle Tumbaco;05/febrero/2020;371;3;Proyecto inmobiliario
 Edificio Andalucía;Local; 67606;Andalucía, Norte De Quito;12/febrero/2020;;;Proyecto inmobiliario
 Bronte;Local; 277996;La Carolina, Iñaquito, Centro Norte;28/enero/2020;;;Proyecto inmobiliario
-Zagaleta;Lote; 208000;Puembo, Valle Tumbaco;27/noviembre/2019;;;Proyecto inmobiliario
+Zagaleta;Lote; 208000;Puembo, Valle Tumbaco;07/04/2020;;;Proyecto inmobiliario
 Sense: Departamentos. Suite;Departamentos; 107000;La Carolina, Iñaquito, Centro Norte;14/febrero/2020;55;1;Proyecto inmobiliario
 Jardínes De La Colina;Casa; 94900;Conocoto, Valle Los Chillos;09/octubre/2019;105;3;Proyecto inmobiliario
 Viña Del Este;Casa; 255142;Tumbaco, Valle Tumbaco;29/enero/2020;234;3;Proyecto inmobiliario
 Viña Del Este;Departamentos; 209172;Tumbaco, Valle Tumbaco;29/enero/2020;144;2;Proyecto inmobiliario
-Le Parc.;Departamentos; 172900;Jipijapa, Centro Norte;01/octubre/2019;135;3;Proyecto inmobiliario
+Le Parc.;Departamentos; 150000;Jipijapa, Centro Norte;01/octubre/2019;135;3;Proyecto inmobiliario
 Kintu;Casa; 85000;Calderón, Norte De Quito;31/marzo/2020;93;3;VIP
 Estrella X;Departamentos; 87932;El Batan, Iñaquito, Centro Norte;10/febrero/2020;52;1;Proyecto inmobiliario
 Home Nius;Casa; 94900;Mitad Del Mundo, Norte De Quito;18/octubre/2019;113;3;Proyecto inmobiliario
-Terra Plus;Departamentos; 74762;El Batan, Iñaquito, Centro Norte;30/agosto/2019;35;1;Proyecto inmobiliario
+Terra Plus;Departamentos; 92633;El Batan, Iñaquito, Centro Norte;30/agosto/2019;35;1;Proyecto inmobiliario
 Estrella IX;Departamentos; 157715;Gonzalez Suarez, Iñaquito, Centro Norte;10/febrero/2020;92;2;Proyecto inmobiliario
-Docamar;Departamentos; 95895;Amagasi Del Inca, Norte De Quito;05/julio/2019;77;2;Proyecto inmobiliario
+Docamar;Departamentos; 124400;Amagasi Del Inca, Norte De Quito;07/04/2020;101;3;Proyecto inmobiliario
 Huma: Departamentos. Suite Pisos 2 / 3 / 7;Departamentos; 130674;La Carolina, Iñaquito, Centro Norte;13/febrero/2020;;1;Proyecto inmobiliario
-Dacar;Casa; 52877;Calderón, Norte De Quito;10/octubre/2019;58;2;Proyecto inmobiliario
+Dacar;Casa; 53859;Calderón, Norte De Quito;10/octubre/2019;58;2;Proyecto inmobiliario
 Castejón;Departamentos; 226882;Cumbaya, Valle Tumbaco;18/febrero/2020;;2;Proyecto inmobiliario
 Gardens Club 3;Casa; 70000;Calderón, Norte De Quito;05/julio/2019;85;3;VIP
-Mont Blanc;Departamentos; 59650;Conocoto, Valle Los Chillos;05/julio/2019;65;2;Proyecto inmobiliario
+Mont Blanc;Departamentos; 54406;Conocoto, Valle Los Chillos;05/julio/2019;65;2;Proyecto inmobiliario
 Ílios;Departamentos; 256289;Cumbaya, Valle Tumbaco;17/enero/2020;155;2;Proyecto inmobiliario
 Portimao;Oficina / Consultorio; 147430;La Carolina, Iñaquito, Centro Norte;16/diciembre/2019;;;Proyecto inmobiliario
 Sense;Oficina / Consultorio; 100336;La Carolina, Iñaquito, Centro Norte;14/febrero/2020;;;Proyecto inmobiliario
@@ -84,6 +84,7 @@ Casa Por Estrenar Chillos, Oferta Especial - Wasi;Casa; 128000;Conocoto, Valle L
 Calle Quiteño Libre Y Av. Ayarza 170516;Departamentos; 240000;Bellavista, Iñaquito, Centro Norte;27/marzo/2020;;;
 Santa Lucai 6;Casa; 175000
             $80 alicuota;Ponceano, Norte De Quito;31/marzo/2020;;;
+Casa Venta;Casa; 240000;La Concepcion, Concepción, Centro Norte;05/abril/2020;;;
 Lote Venta;Lote; 1300000;Cumbaya, Valle Tumbaco;27/marzo/2020;;;
 Departamentos Venta;Departamentos; 139000;Valle Tumbaco;16/marzo/2020;;;
 Av .Interoceanica 24511;Casa; 980000
@@ -98,20 +99,23 @@ Casa Venta;Casa; 215000
             $120 alicuota;Tumbaco, Valle Tumbaco;18/febrero/2020;;;
 Marcos Jofre 984970485;Departamentos; 87000;Norte De Quito;05/noviembre/2019;;;
 Casa Venta;Casa; 112000;Pomasqui, Norte De Quito;25/marzo/2020;;;
+Casa En La Pampa, Venta, 5 Habitaciones;Penthouse; 340000;Pomasqui, Norte De Quito;06/abril/2020;500;5;
 Casa Venta;Casa; 95999
             $72 alicuota;San Isidro Del Inca, Centro Norte;20/enero/2020;;;
 Casa Venta;Casa; 92000;Pomasqui, Norte De Quito;20/enero/2020;;;
-Cumbaya Dos Departamentos A Estrenar - Sector Urbanización Auqui Chico;Departamentos; 588587;Cumbaya, Valle Tumbaco;04/abril/2020;;;
+Amplia Casa 6 Dorm., Sector Plaza Las Américas;Casa; 462000;Granda Centeno, Rumipamba, Centro Norte;06/abril/2020;;;
+Vendo Departamento En Lomas De Monteserrín;Departamentos; 189000;Jipijapa, Centro Norte;06/abril/2020;;;
+Venta, Hacienda En El Quinche,La Mejor Del Sector;Casa; 2626722;El Quinche, Valle Tumbaco;06/abril/2020;;;
+Excelente Departamento En Venta Centro Norte De Quito Calle Bosmediano Sector Bellavista;Departamentos; 440000;Bellavista, Iñaquito, Centro Norte;07/04/2020;;;
+Hm Ce/ Inca! Venta De Hermosa Casa De 120m2 Dentro De Conjunto Privado!;Casa; 120000;Kennedy, Centro Norte;06/abril/2020;;;
+Quito Departamento En Venta Gonzalez Suarez Semi Remodelado;Departamentos; 400000;Iñaquito, Centro Norte;05/abril/2020;;;
 2pa2cumbayá.La Primavera Ventadepart 113m 3 Dormitorios+Balcón7,64m;Departamentos; 199325;Cumbaya, Valle Tumbaco;04/abril/2020;;;
 Hermosa Suite Por Estrenar Complejo Financiero Ekopark, Udla, Redondel Del Ciclista - Monteserrín;Departamentos; 125000;Iñaquito, Centro Norte;03/abril/2020;;;
 Casa De Venta En El Sector De El Inca Cerca De De La Amazonas;Casa; 350000;Jipijapa, Centro Norte;03/abril/2020;;;
-C/ González Suárez, Departamento De 210m2 En Venta, 3 Habitaciones;Departamentos; 238000;Gonzalez Suarez, Iñaquito, Centro Norte;03/abril/2020;;;
 Vendo Departamento 2 Dorm Pinar Alto;Departamentos; 120000;El Pinar, Concepción, Centro Norte;02/abril/2020;;;
 Casa Independiente Estilo Rustica, En Una Planta, De Venta Sector Conocoto;Casa; 140000;Conocoto, Valle Los Chillos;02/abril/2020;;;
 Penthouse De Venta En Vista Grande. 3 Dormitorios, Terrazas, Vista Espectacular;Departamentos; 408000;Miravalle, Nayon - Tanda, Valle Tumbaco;01/abril/2020;;;
 Lomas Moteserrin Oportunidad Departamento De Venta, Norte De Quito;Departamentos; 280000;Jipijapa, Centro Norte;01/abril/2020;;;
-Venta, Hacienda En El Quinche,La Mejor Del Sector;Casa; 2626722;El Quinche, Valle Tumbaco;01/abril/2020;;;
-Casa De Venta En Conjunto Puertas Del Sol;Casa; 88000;Puengasí, Centro Colonial;31/marzo/2020;;;
 Vendo Departamento, Urbanización Amagasi Del Inca.;Departamentos; 158000;San Isidro Del Inca, Centro Norte;31/marzo/2020;;;
 Departamento En Venta Sur De Quito, La Villaflora;Departamentos; 68000;La Magdalena, Sur De Quito;31/marzo/2020;;;
 Venta Departamento 3 Dormitorios En Ponciano/ Norte De Quito;Departamentos; 60000;Ponceano, Norte De Quito;31/marzo/2020;;;
@@ -125,7 +129,6 @@ Venta De Departamento, Dos Habitaciones. Gaspar De Villarroel;Departamentos; 135
 Casa De Venta En Calderon Sector Carretas A 2 Minutos Del Portal Shopping . Oportunidad;Casa; 135000;Calderón, Norte De Quito;28/marzo/2020;;;
 Tumbaco Casa Estilo Rústico 4 Habitaciones Jardín;Casa; 300000;Tumbaco, Valle Tumbaco;27/marzo/2020;;;
 Casa En Venta Sector Uraba Ii, Cerca Intercambiador Carcelen O Intercambiador Carapungo;Casa; 120000;Carcelen, Norte De Quito;27/marzo/2020;;;
-Excelente Casa En Venta Sector Ponceano Norte De Quito En La Mercedes Gonzalez Y Alberto Einstein;Casa; 240000;Ponceano, Norte De Quito;27/marzo/2020;;;
 Departamento Venta Bien Distribuido – Sector Embajada Americana;Departamentos; 145000;San Isidro Del Inca, Centro Norte;27/marzo/2020;;;
 Casa De Venta En Los Chillos, San Rafael, Propiedad Con 350 M2 De Terreno Y 335 M2 De Construcción, 4 Dormitorios;Casa; 245000;Conocoto, Valle Los Chillos;27/marzo/2020;;;
 Vendo Casa 2 Dptos + Galpón, San Fernando A 5 Cuadras Av. Occidental $398.000;Casa; 398000;Cochapamba, Centro Norte;26/marzo/2020;;;
@@ -162,10 +165,8 @@ Venta De Casa Norte Calderón San Camilo;Casa; 151900;San Bartolo, Sur De Quito;1
 Casa De Venta La Mascota Sur De Quito;Casa; 95000;La Magdalena, Sur De Quito;10/marzo/2020;;;
 Departamento En Venta Norte De Quito, Carcelen;Departamentos; 68000;Carcelen, Norte De Quito;10/marzo/2020;;;
 Hermoso Dpto De 2 Dormitorios Amoblado En Venta, Sector González Suárez. Cod. Volv008;Departamentos; 165000;Gonzalez Suarez, Iñaquito, Centro Norte;10/marzo/2020;;;
-306 - Casa De Venta En Capelo, Cerca San Rafael, San Luis Shopping, El Triángulo, Sangolquí;Casa; 285000;Quito;10/marzo/2020;;;
 Vendo Departamento 3 Dormitorios San Carlos Norte De Quito 90 Mtrs;Departamentos; 65000;Concepción, Centro Norte;10/marzo/2020;;;
 Vendo Departamento Sector Gaspar Y Seis;Departamentos; 98000;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
-Amplia Casa 6 Dorm., Sector Plaza Las Américas;Casa; 462000;Granda Centeno, Rumipamba, Centro Norte;10/marzo/2020;;;
 Vendo Casa 108 M2 Sector El Condado;Casa; 105000;Cotocollao, Norte De Quito;10/marzo/2020;;;
 Casa De Venta - Intercambiador De Carcelen - Urabá - Nueva Vía Simón Bolivar;Casa; 105000;Carcelen, Norte De Quito;10/marzo/2020;;;
 Casa De Venta Sector Cofavi;Casa; 239990;Kennedy, Centro Norte;10/marzo/2020;;;
@@ -225,39 +226,44 @@ En Venta Hermoso Departamento Por Estrenar En Bellavista, Centro Norte De Quito;
 Venta De Casa, Sector San Fernando, Norte De Quito;Casa; 124000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Venta / Departamentos Sector Ruta Viva Cercano A Cumbaya Y Tumbaco;Departamentos; 149685;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
 Casa De Venta, Sangolquí, Cashapamba, El Colibrí, 3 Dormitorios, 120 Metros;Casa; 108500;Quito;10/marzo/2020;;;
+Miguel Angel;Penthouse; 320000;Cumbaya, Valle Tumbaco;06/abril/2020;;3;
 Casa Venta;Casa; 150000;La Armenia I, Conocoto, Valle Los Chillos;18/febrero/2020;;;
+Departamento De Venta O Alquiler;Departamentos; 60000;Conocoto, Valle Los Chillos;07/04/2020;;;
+Me/Sector Quito Tenis Lindo Penthouse De Venta!!;Departamentos; 380000;Rumipamba, Centro Norte;07/04/2020;;;
+Casa De Venta En Calderon, Carapungo, Vía Marianitas, Llano Grande, Chico , Ism Calderón;Casa; 68000;Calderón, Norte De Quito;06/abril/2020;;;
+Venta De Departamento Dúplex De 126m² Granda Centeno, Quito;Departamentos; 179000;Granda Centeno, Rumipamba, Centro Norte;06/abril/2020;;;
+Suite En Venta 70m2 Urbanización El Condado Edificio Nyon;Departamentos; 100266;El Condado, Norte De Quito;07/04/2020;;;
+Vendo Casa 120 Mtrs, 3 Dormitorios, Sector Amagasí Del Inca;Casa; 115000;San Isidro Del Inca, Centro Norte;06/abril/2020;;;
+Venta Departamento, Sector Mariana De Jesús, Citymed, Hospital Metropolitano, Parque De La Mujer, Colegio San Gabrielito;Departamentos; 117000;Rumipamba, Centro Norte;06/abril/2020;;;
+Vendo Casa Mitad Del Mundo;Casa; 55000;San Antonio De Pichincha, Norte De Quito;06/abril/2020;;;
+Se Vende, Departamento, Centro Norte Bulgaria;Departamentos; 170000;Iñaquito, Centro Norte;06/abril/2020;;;
+Venta De Casas De Oportunidad En El Valle De Tumbaco Sector Tola Grande Cerca De La Ruta Viva E Interoceánica;Casa; 130000;Tumbaco, Valle Tumbaco;06/abril/2020;;;
+Departamento De Venta Sector Monteserrin;Departamentos; 114500;Jipijapa, Centro Norte;05/abril/2020;;;
+Vendo Linda Casa En Llano Grande Conjunto Con Cámaras De Seguridad;Casa; 52000;Calderón, Norte De Quito;05/abril/2020;;;
 Vendo Departamento Sector La Católica;Departamentos; 125000;Mariscal Sucre, Centro Norte;04/abril/2020;;;
 Cumbaya - Vendo Casa;Casa; 355000;Cumbaya, Valle Tumbaco;04/abril/2020;;;
-Venta De Departamento Dúplex De 126m² Granda Centeno, Quito;Departamentos; 179000;Granda Centeno, Rumipamba, Centro Norte;04/abril/2020;;;
 Vendo Departamento De 2 Dormitorios Sector Collaloma;Departamentos; 55000;Comité Del Pueblo, Centro Norte;04/abril/2020;;;
 Separe Con Solo 500 Su Casa, Departamento O Local Comercial!!;Casa; 89000;Calderón, Norte De Quito;04/abril/2020;;;
-Venta Lujosa Casa Mitad Del Mundo;Casa; 350000;San Antonio De Pichincha, Norte De Quito;04/abril/2020;;;
-Me/Sector Quito Tenis Lindo Departamento De 02 Dormitorios En Venta!!;Departamentos; 130000;Rumipamba, Centro Norte;03/abril/2020;;;
 Departamento 3 Dormitorios De Venta Sector El Bosque - Union Nacional. Centro Norte De Quito;Departamentos; 183660;Rumipamba, Centro Norte;02/abril/2020;;;
 Vendo Hermosa Suite Amoblada (Quito Tennis);Departamentos; 125000;Rumipamba, Centro Norte;01/abril/2020;;;
 Hermosa Casa Moderna De Venta O Renta A Menor Precio Que El Constructor!;Casa; 415000;Tumbaco, Valle Tumbaco;01/abril/2020;;;
 Vendo Casa De 120 M² Area Terreno De 960 M² Barrio La Joya 1;Casa; 85000;Quito;01/abril/2020;;;
 Venta Casa, 3 Habitaciones, Armenia 2;Casa; 135000;La Armenia I, Conocoto, Valle Los Chillos;01/abril/2020;;;
-Departamento De Venta Al Norte De Quito, El Bosque;Departamentos; 500000;Cochapamba, Centro Norte;01/abril/2020;;;
 Venta De Casa Grande Naciones Unidas En Conjunto Estilo Mediterraneo;Casa; 280000;Granda Centeno, Rumipamba, Centro Norte;01/abril/2020;;;
 Venta Departamento Miravalle 4;Departamentos; 175000;Miravalle, Nayon - Tanda, Valle Tumbaco;01/abril/2020;;;
 Venta Departamento Centro Conocoto;Departamentos; 64500;Conocoto, Valle Los Chillos;01/abril/2020;;;
 Vendo Lindo Departamento Ponceano Alto. 103m, 124999usd;Departamentos; 127999;Tumbaco, Valle Tumbaco;31/marzo/2020;;;
 Departamento Con Balcon 2 Dorm. Quito Tenis De Venta, Centro Norte Quito;Departamentos; 139000;Rumipamba, Centro Norte;31/marzo/2020;;;
-Vendo Linda Casa En Llano Grande Conjunto Con Cámaras De Seguridad;Casa; 52000;Calderón, Norte De Quito;05/04/2020;;;
 Casa En Venta, Sector La Armenia, Los Chillos, Cerca A La Autopista Gral. Rumiñahui, Sur De Quito;Casa; 399000;Conocoto, Valle Los Chillos;31/marzo/2020;;;
 Acepto Canje Por Lote/Cebollar Cumbaya Vendo Magnifica Casa De Op0rtunidad En El Cebollar Cumbaya.Grande Vip;Casa; 350000;Cumbaya, Valle Tumbaco;30/marzo/2020;;;
-Departamento Venta En El Portal San Camilo, Calderón, Carapungo, Panamerica Norte;Casa; 68000;Calderón, Norte De Quito;30/marzo/2020;;;
 Cambio O Vendo Hermosa Casa;Casa; 155000;San Isidro Del Inca, Centro Norte;29/marzo/2020;;;
 Vendo Casa Con Amplios Espacios, En Ciudadela Unión Nacional, Cerca A El Bosque;Casa; 290000;Rumipamba, Centro Norte;28/marzo/2020;;;
-Venta Casa La Armenía, Valle De Los Chillos, Sector Colegio Gonzaga, Country Armenia, Saint Dominic.;Casa; 129000;Conocoto, Valle Los Chillos;28/marzo/2020;;;
 Venta Departamento A Estrenar 3 Habitaciones Edificio Torre Ozla Con Ascensor Sector Hospital Docente "Calderón" $65.000;Departamentos; 65000;Calderón, Norte De Quito;27/marzo/2020;;;
 Tanda Hermosa Casa Conjunto $237.000;Casa; 237000;Alangasí, Valle Los Chillos;27/marzo/2020;;;
 Bajo De Precio. Centro. Mojas. Urb. Jardin Del Valle.;Casa; 350000;Puengasí, Centro Colonial;27/marzo/2020;;;
 Casas De Venta - Calderón - Conjunto Cerrado Con Psicina- A 300mts Colegio Escuela El Milenio - Si Aplica A Crédito Vip;Casa; 70990;Calderón, Norte De Quito;27/marzo/2020;;;
 Hermosa Casa Por Estrenar En La Ciudadela Ibarra;Casa; 91000;La Ecuatoriana, Sur De Quito;26/marzo/2020;;;
 Linda Casa De 3 Pisos En Conjunto Habitacional A 5 Minutos Del CC El Portal;Casa; 89990;Calderón, Norte De Quito;26/marzo/2020;;;
-Departamento 2 Dormitorios, 76m2, Sector La Carolina;Departamentos; 115000;Iñaquito, Centro Norte;25/marzo/2020;;;
 Departamento En Venta Sector Bellavista. Negociable;Departamentos; 289000;Iñaquito, Centro Norte;25/marzo/2020;;;
 Quito Tennis, Duplex 4 Dormitorios.;Departamentos; 320000;Rumipamba, Centro Norte;24/marzo/2020;;;
 Departamento De Venta, Sector El Bosque, Norte De Quito, Penthouse Con Hermosa Vista;Departamentos; 195000;Quito Tenis, Centro Norte;24/marzo/2020;;;
@@ -276,6 +282,7 @@ Se Vende Casa En Conjunto Bosques De Inchalillo, Sangolqui;Casa; 138000;Mariscal
 Vendo Amplio Departamento - 3 Habitaciones - Cotocollao;Departamentos; 110000;Cochapamba, Centro Norte;19/marzo/2020;;;
 Suite De Venta, Quito Tenis, Edificio Moen;Departamentos; 110000;Rumipamba, Centro Norte;19/marzo/2020;;;
 Departamento Nuevo En Venta, Sector De El Condado 149 M2, 3 Habitaciones, Cuarto De Huéspedes, 3 Gar;Departamentos; 147000;El Condado, Norte De Quito;19/marzo/2020;;;
+Vendo Linda Casa Esquinera Sector Pomasqui, Mitad Del Mundo;Casa; 75000;Pomasqui, Norte De Quito;18/marzo/2020;;;
 Departamento 2 Dormitorios Sector Río Coca;Departamentos; 67000;El Inca, Jipijapa, Centro Norte;18/marzo/2020;;;
 Venta Hermosa Casa Urbanización El Condado 314m2;Casa; 179000;Cotocollao, Norte De Quito;18/marzo/2020;;;
 Vendo Departamento Con Amplio Jardín Privado, Sector Central;Departamentos; 165000;Rumipamba, Centro Norte;17/marzo/2020;;;
@@ -284,7 +291,6 @@ Vendo O Cambio Precioso Departamento Quito Tenis;Departamentos; 350000;Rumipamba
 Casa En Venta En Conjunto Sector Ponceano Alto;Casa; 124000;Ponceano, Norte De Quito;16/marzo/2020;;;
 Departamento De Venta En Cumbaya, Urb. Jardines Del Este;Departamentos; 200000;Cumbaya, Valle Tumbaco;16/marzo/2020;;;
 Departamento En Venta Portugal Cerca A Eloy Alfaro 4 Habitaciones, 2 Parqueaderos;Departamentos; 175000;Iñaquito, Centro Norte;16/marzo/2020;;;
-Departamento Dos Hemisferios, 3 Dormitorios, Primer Piso, Con Mejora, Lámparas,Cortinas,Piso Flotante $62.000 Negociable;Departamentos; 62000;Pomasqui, Norte De Quito;16/marzo/2020;;;
 Oportunidad De Venta Hermosa Casa Dentro De Excelente Zona Residencial De Miravalle;Casa; 489000;Miravalle, Nayon - Tanda, Valle Tumbaco;15/marzo/2020;;;
 Oportunidad Departamento De Venta,Solo $31.000;Departamentos; 31000;Solanda, Sur De Quito;15/marzo/2020;;;
 Venta Departamento Amagasi Del Inca (Conjunto Privado) Embajada Americana;Departamentos; 118000;San Isidro Del Inca, Centro Norte;15/marzo/2020;;;
@@ -298,7 +304,6 @@ Bellavista, Vendo Departamento 84 M², 2 Dorm.;Departamentos; 120000;Bellavista, 
 Quito Tenis / El Bosque / Buenavista Departamento Venta, 176 M2, 3 Dormitorios, Balcón, Ascensor, Vista,Quito Norte;Departamentos; 240000;Rumipamba, Centro Norte;13/marzo/2020;;;
 Vendo Hermosa Casa En La Rivera De La Armenia;Casa; 94999;Conocoto, Valle Los Chillos;12/marzo/2020;;;
 Departamento De Venta 123,66m2 / $ 125000 - Sector La Mariscal;Departamentos; 125000;Mariscal Sucre, Centro Norte;12/marzo/2020;;;
-Bonita Casa Rentera De Venta Al Sur De Quito Sector Turubamba;Casa; 105000;Solanda, Sur De Quito;12/marzo/2020;;;
 El Batán - Suite En Venta Precio A Negociar;Departamentos; 87000;El Inca, Jipijapa, Centro Norte;12/marzo/2020;;;
 Venta Casa Independiente, Sector Pinar Alto;Casa; 199000;El Pinar, Concepción, Centro Norte;11/marzo/2020;;;
 Se Vende Casa 260m² 6 Hab /5 Baños /1 Local Anexo /Av Real Audiencia Quito Norte;Casa; 145000;Kennedy, Centro Norte;11/marzo/2020;;;
@@ -312,13 +317,13 @@ Venta De Casa De Oportunidad En San Sebastian Calderón II Etapa;Casa; 74000;Cald
 Oportunidad Hermosa Suite De Venta A Estrenar 0edificio Atellier U/S Precio Negociable;Departamentos; 137900;Iñaquito, Centro Norte;10/marzo/2020;;;
 Casas Nuevas En Venta Dentro De Conjunto Privado En Capelo – Valle De Los Chillos – Sector Sangolquí Cerca De San Rafael;Casa; 85000;Quito;10/marzo/2020;;;
 Ponceano Casa De Venta;Casa; 330000;Ponceano, Norte De Quito;10/marzo/2020;;;
-Casas De 85 Metros Credito Vip Al 4,99% En Calderon Marianitas;Departamentos; 74990;Calderón, Norte De Quito;10/marzo/2020;;;
 Casa De Venta, Valle De Los Chillos, Sector San Rafael;Casa; 105000;Amaguaña, Sur De Quito;10/marzo/2020;;;
 Norte -Condado Conjunto. Verde Horizonte, Casa De 3 Dormitorios Con Sala De Estar;Casa; 92000;El Condado, Norte De Quito;10/marzo/2020;;;
 Venta De Casa Grande Rentera En Sur De Quito Sector San Diego Negociable;Casa; 140000;Centro De Quito, Centro Colonial;10/marzo/2020;;;
 Venta Departamento 3 Dormitorios En Proyecto Sector República Del Salvador, Carolina, Batan, Centro Norte, Uio;Departamentos; 201527;Iñaquito, Centro Norte;10/marzo/2020;;;
 Mirasierra-Valle De Los Chillos Departamento 3 Dormitorios Por Estrenar En Venta;Departamentos; 124272;Alangasí, Valle Los Chillos;10/marzo/2020;;;
 Cumbaya, Moderna Suite De Venta En Urbanización Cerrada;Departamentos; 105500;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
+Amplio Departamento Entre La Gonzalez Suarez Y Bosmediano, 4 Dormitorios, Piscina, Raquet, Sauna, Turco, Hermosa Vista.;Departamentos; 230000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
 Hermosa Casa De Venta 3 Pisos Conjunto Entrepinos Sector Colegio Sek;Casa; 140000;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
 Venta De Casa De Oportunidad En Quitumbe Sur De Quito;Casa; 59500;Quitumbe, Sur De Quito;10/marzo/2020;;;
 Conjunto Cerrado Con Piscina E Hidromasaje - Casa En Calderon;Departamentos; 70990;Calderón, Norte De Quito;10/marzo/2020;;;
@@ -343,28 +348,29 @@ Departamento De 3 Dormitorios Sector Gonzalez Suarez;Departamentos; 244869;Gonza
 Bello Departamento De Venta Sector Bosque, Norte De Quito;Departamentos; 295000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Vendo Hermosas Casas A Estrenar Calderón;Casa; 78500;Calderón, Norte De Quito;10/marzo/2020;;;
 La Pradera 118 M² Departamento 3 Dormitorios Maravilloso;Departamentos; 125000;Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta De Casas De Oportunidad En El Valle De Tumbaco Sector Tola Grande Cerca De La Ruta Viva E Interoceánica;Casa; 130000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Departamen 3 Dormitoris El Transito;Departamentos; 55000;El Condado, Norte De Quito;08/marzo/2020;;;
-Hermosa Casa En Conjunto Privado20 Casas;Casa; 62000;Cotocollao, Norte De Quito;06/marzo/2020;;;
 Vendo Casa Jardín, Nayón, Precio Especial Feria - Wasi;Casa; 169000;Nayon - Tanda, Valle Tumbaco;31/marzo/2020;;;
 Campo Alegre 2;Casa; 650000;Monteserrin, Jipijapa, Centro Norte;31/marzo/2020;;;
+306 - Casa De Venta En Capelo, Cerca San Rafael, San Luis Shopping, El Triángulo, Sangolquí;Casa; 285000;Quito;10/marzo/2020;;;
 Casa, Urbanización Privada En Venta O Alquiler, Zona Rancho San Francisco, Tanda;Casa; 595000;Nayon - Tanda, Valle Tumbaco;20/marzo/2020;;;
 Casa Venta;Casa; 292000;Cumbaya, Valle Tumbaco;16/marzo/2020;;;
 Vendo Amplia Casa Rentera Con Local Comercial;Casa; 88000;Comité Del Pueblo, Centro Norte;10/marzo/2020;;;
 Casa Venta;Casa; 540000
             $100 alicuota;Cumbaya, Valle Tumbaco;19/febrero/2020;;;
 Casa Venta;Casa; 230000;Norte De Quito;25/marzo/2020;;;
+Departamento De 3 Dormitorios En Colinas Del Pichincha;Departamentos; 260000;Rumipamba, Centro Norte;06/abril/2020;436;3;
+Venta Casa De 305 M² Con Jardines Y Piscina. Tumbaco;Casa; 260000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
+Vendo Suite De Oportunidad Sector Jipijapa;Departamentos; 68000;Jipijapa, Centro Norte;06/abril/2020;;;
+Venta Departamento Orellana Y 12 De Octubre Edificio Jericó;Departamentos; 261000;Iñaquito, Centro Norte;14/marzo/2020;;;
+Espectacular Penthouse Duplex En Venta Sector Gonzalez Suarez Centro Norte De Quito Isabel La Catolica Y Zaldumbide;Departamentos; 750000;Mariscal Sucre, Centro Norte;07/04/2020;;;
+Cumbaya Departamento En Venta Por Estrenar En Urb. Privada;Departamentos; 730000;Cumbaya, Valle Tumbaco;05/abril/2020;;;
 Casa De Venta, 4 Dormitorios, Sector Puembo, Conjunto Cerrado;Casa; 900000;Puembo, Valle Tumbaco;13/marzo/2020;;;
-Cumbaya Casa De Venta En Urbanizacion Privada;Casa; 1150000;Cumbaya, Valle Tumbaco;04/abril/2020;;;
 1pbcumbayá. La Primavera. Venta. Depart 108m 3dormitorios+Patio 74,33m;Departamentos; 183949;Cumbaya, Valle Tumbaco;04/abril/2020;;;
 Departamento De Lujo Por Estrenar En La Av Coruña;Departamentos; 230238;Iñaquito, Centro Norte;03/abril/2020;;;
 Casa De Venta En La Armenia, Cerca Al Parque Metropolitano;Casa; 160000;Conocoto, Valle Los Chillos;03/abril/2020;;;
-C/ Carcelén Bajo! Hermoso Departamento De 92m2 En Venta!! A Estrenar!!;Departamentos; 90000;Carcelen, Norte De Quito;03/abril/2020;;;
 Amplia Casa En Venta,Tres Habitaciones Con Baño Privado,Autopista General Rumiñahui;Casa; 135000;Conocoto, Valle Los Chillos;02/abril/2020;;;
 Casa De Venta En Cumbaya, 4 Dormitorios, Un Dormitorio En Pb;Casa; 610000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Batan Ana Luisa Vendo Oportunidad Departamento;Departamentos; 128000;El Batan, Iñaquito, Centro Norte;27/marzo/2020;;;
-Venta Departamento Orellana Y 12 De Octubre Edificio Jericó;Departamentos; 261000;Iñaquito, Centro Norte;14/marzo/2020;;;
-Vendo Hermoso Departamento Cumbayá Sector La Primavera 2;Departamentos; 125000;Cumbaya, Valle Tumbaco;19/marzo/2020;;;
 Vendo Departamentos En Calderón;Departamentos; 43990;Calderón, Norte De Quito;31/marzo/2020;;;
 Venta De Casa Vip En Sangolqui;Casa; 69900;Quito;31/marzo/2020;;;
 Vendo Departamento 3 Dormitorios Edificio De Lujo. Av. Orellana / Cerca Coruña / Norte De Quito;Departamentos; 130000;Mariscal Sucre, Centro Norte;22/marzo/2020;;;
@@ -378,7 +384,6 @@ Venta De Departamento, Sin Amoblar, Dos Habitaciones. Sector El Batán;Departamen
 Venta Suit Inca;Departamentos; 70000;Iñaquito, Centro Norte;28/marzo/2020;;;
 Oportunidad Casa De Venta La Armenia 3 Dormitorios;Casa; 112000;Conocoto, Valle Los Chillos;02/abril/2020;;;
 Casa En Venta En La Armenia, Valle De Los Chillos;Casa; 94000;Conocoto, Valle Los Chillos;19/marzo/2020;;;
-Excelente Suite En Venta En Centro Norte De Quito Granda Centeno;Departamentos; 92000;Granda Centeno, Rumipamba, Centro Norte;27/marzo/2020;;;
 Venta Departamento, Centro Norte, Sector Udla Granados;Departamentos; 75000;La Argelia, Sur De Quito;27/marzo/2020;;;
 Hermosa Quinta Sector Mirasierra;Casa; 2785000;Alangasí, Valle Los Chillos;27/marzo/2020;;;
 Venta De Departamento En San Fernando;Departamentos; 75000;Quito Tenis, Centro Norte;21/marzo/2020;;;
@@ -415,7 +420,6 @@ Casa De Venta Norte De Quito Calderon;Casa; 65000;Calderón, Norte De Quito;10/ma
 Venta De Departamento Dúplex A Estrenar Sector Real Audiencia;Departamentos; 107000;Ponceano, Norte De Quito;10/marzo/2020;;;
 Espectacular Departamento 300 Mtrs, El Bosque, Edificio Con Piscina;Departamentos; 498000;Quito Tenis, Centro Norte;10/marzo/2020;;;
 Venta Departamento Localizado En Gaspar;Departamentos; 98000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Casa De 305 M² Con Jardines Y Piscina. Tumbaco;Casa; 260000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Vendo Casa Grande 423 M2 Sector Jipijapa;Casa; 258000;Jipijapa, Centro Norte;10/marzo/2020;;;
 Venta Suite, Centro Norte Colon, Eloy Alfaro;Departamentos; 70000;Belisario Quevedo, Centro Norte;10/marzo/2020;;;
 Departamento De 2 Habitaciones La Carolina;Departamentos; 123400;La Carolina, Iñaquito, Centro Norte;10/marzo/2020;;;
@@ -472,11 +476,20 @@ En Venta Hermoso Departamento Con Jardín En Miravalle 1;Departamentos; 200000;Mi
 Venta De Casa Terreno Los Chillos, Sector Los Cuarteles;Casa; 208000;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Venta Vendo Casas Sector Armenia 2, Valle De Los Chillos;Casa; 133000;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Casa De Venta Independiente, Los Chillos, 4 Dormitorios;Casa; 145000;Quito;11/marzo/2020;;;
-Vendo Departamento Por Estrenar U. Católica;Departamentos; 205000;Mariscal Sucre, Centro Norte;04/abril/2020;;;
+Me/Sector Quito Tenis Lindo Departamento De 02 Dormitorios En Venta!!;Departamentos; 130000;Rumipamba, Centro Norte;03/abril/2020;;;
+Bonita Casa Rentera De Venta Al Sur De Quito Sector Turubamba;Casa; 105000;Solanda, Sur De Quito;12/marzo/2020;;;
+Calderón Casa De Venta , Carapungo, Vía Marianitas, Llano Grande, Chico;Casa; 70000;Calderón, Norte De Quito;06/abril/2020;;;
 Venta De Suite De 65 M² Sector El Bosque;Departamentos; 89000;Cochapamba, Centro Norte;18/marzo/2020;;;
+Pusuqui Vendo Amplia Casa Independiente 3 Dorm 3 Baños + Local Comercial;Casa; 115000;Pomasqui, Norte De Quito;06/abril/2020;;;
+Casa En Venta 164m2 Por Estrenar En Santa Lucía;Casa; 208398;Kennedy, Centro Norte;07/04/2020;;;
+Departamento 2 Dormitorios, 76m2, Sector La Carolina;Departamentos; 115000;Iñaquito, Centro Norte;25/marzo/2020;;;
+Venta Casa Sector La Armenia Valle De Los Chillos, San Rafael, Conocoto Quito;Casa; 129000;La Armenia I, Conocoto, Valle Los Chillos;28/marzo/2020;;;
+Vendo Casa Armenia Por Estrenar;Casa; 110000;Conocoto, Valle Los Chillos;07/04/2020;;;
+Se Vende, Departamento, El Bosque;Departamentos; 150000;Quito Tenis, Centro Norte;06/abril/2020;;;
+Venta Departamentos En Tumbaco, Sector Tola Chica Cerca De Av. Interoceánica Y Ruta Viva;Departamentos; 135000;Tumbaco, Valle Tumbaco;06/abril/2020;;;
+Venta De Casas A Estrenar Mitad Del Mundo Dentro De Urbanización Muy Segura Y Cerca De Todo Lo Comercial;Casa; 103990;San Antonio De Pichincha, Norte De Quito;27/marzo/2020;;;
+Vendo Departamento Por Estrenar U. Católica;Departamentos; 205000;Mariscal Sucre, Centro Norte;04/abril/2020;;;
 Vendo Departamento De 2 Dormitorios Sector 6 De Diciembre Y El Inca;Departamentos; 80000;Jipijapa, Centro Norte;04/abril/2020;;;
-En Venta Casa Sector Colegio Americano;Casa; 290000;Carcelen, Norte De Quito;03/abril/2020;;;
-Se Vende, Departamento, En El Quito Tenis;Departamentos; 295000;Rumipamba, Centro Norte;03/abril/2020;;;
 Suite De Venta Sector El Bosque - Union Nacional. Centro Norte De Quito;Departamentos; 72480;Rumipamba, Centro Norte;02/abril/2020;;;
 Vendo Casa 340 M Sector El Bosque;Casa; 270000;Quito Tenis, Centro Norte;22/marzo/2020;;;
 Vendo Hermosa Casa, Sector Ponceano;Casa; 170000;Ponceano, Norte De Quito;01/abril/2020;;;
@@ -484,27 +497,20 @@ Departamento Como Casa Urb. Las Bromelias/ 4 Dorm.;Casa; 595000;Jipijapa, Centro
 De Oportunidad Venta Casa Rentera Con 5 Departamento En Solanda, Sur De Quito;Casa; 158000;Solanda, Sur De Quito;29/marzo/2020;;;
 Hermoso Departamento De Venta En San Isidro Del Inca;Departamentos; 105000;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
 Venta Casa Terminal Quitumbe;Casa; 60000;Quitumbe, Sur De Quito;19/marzo/2020;;;
-Cumbaya Se Vende Casa Moderna Con Piscina;Casa; 699000;Cumbaya, Valle Tumbaco;01/abril/2020;;;
 Venta Casa Tumbaco, Las Peñas;Casa; 235000;Tumbaco, Valle Tumbaco;30/marzo/2020;;;
 Departamento En Venta, Espectacular Vista, Piscina, El Bosque;Departamentos; 295000;Cochapamba, Centro Norte;01/abril/2020;;;
 Vendo Casa 4d En Los Laureles;Casa; 223500;Jipijapa, Centro Norte;29/marzo/2020;;;
 Casa De 117 En Llano Grande;Casa; 74000;Calderón, Norte De Quito;24/marzo/2020;;;
 Suite En Urbanizacion El Condado De Venta;Departamentos; 80000;El Condado, Norte De Quito;31/marzo/2020;;;
-Venta De Casas A Estrenar Mitad Del Mundo Dentro De Urbanización Muy Segura Y Cerca De Todo Lo Comercial;Casa; 103990;San Antonio De Pichincha, Norte De Quito;27/marzo/2020;;;
 Departamento En Venta, Sector Collaloma, Comité Del Pueblo, Por La Av Eloy Alfaro, Junto A Dhl;Departamentos; 68000;Comité Del Pueblo, Centro Norte;31/marzo/2020;;;
-Vendo Linda Casa Esquinera Sector Pomasqui, Mitad Del Mundo;Casa; 75000;Pomasqui, Norte De Quito;18/marzo/2020;;;
-Amplio Departamento Entre La Gonzalez Suarez Y Bosmediano, 4 Dormitorios, Piscina, Raquet, Sauna, Turco, Hermosa Vista.;Departamentos; 230000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
 **Arrayanes Country Club ** Vendo Casa En El Green De Golf **Antisismica.Estructura De Acero**Elegancia Y Sobriedad**;Casa; 3000000;Puembo, Valle Tumbaco;10/marzo/2020;;;
 Departamento De Venta Cerca A La Universidad Ute Y Universidad Central;Departamentos; 150000;Rumipamba, Centro Norte;10/marzo/2020;;;
-Venta Departamento Duplex San Camilo En El Portal, Calderón, Carapungo, Panamerica Norte;Departamentos; 77000;Calderón, Norte De Quito;30/marzo/2020;;;
 Departamento En La Eloy Alfaro Y Portugal, Sector El Batán, Vendo Por Viaje.;Departamentos; 235000;Bellavista, Iñaquito, Centro Norte;16/marzo/2020;;;
-Venta Casa Sector La Armenia Valle De Los Chillos, San Rafael, Conocoto Quito;Casa; 129000;La Armenia I, Conocoto, Valle Los Chillos;28/marzo/2020;;;
 Venta Casa Independiente Tres Habitaciones Nueva A Estrenar Dos Plantas "Complejo Turístico Mitad Del Mundo" $75.000;Casa; 75000;San Antonio De Pichincha, Norte De Quito;27/marzo/2020;;;
 Guapulo Vendo Hermosa Vista 2 Dormitorios;Departamentos; 87000;Itchimbía, Centro Colonial;12/marzo/2020;;;
 Vendo Centro Norte. Batan. Por Megamaxi;Departamentos; 160000;Iñaquito, Centro Norte;24/marzo/2020;;;
 Casa Nueva En Conjunto Cerrado Con Piscina - Calderón - Si Aplica Crédito Vip - Si Venezolano, Extranjero Y Nacional;Casa; 68990;Calderón, Norte De Quito;26/marzo/2020;;;
 Casa Independiente De Venta Al Sur De Quito Sector Turubamba De Monjas;Casa; 83000;La Ecuatoriana, Sur De Quito;26/marzo/2020;;;
-Vendo Departamento 2 Dormitorios, 90 M2, República Del Salvador, Parque La Carolina;Departamentos; 123000;Iñaquito, Centro Norte;24/marzo/2020;;;
 Suite En Venta 55 M2. Sector La Carolina.;Departamentos; 70000;Iñaquito, Centro Norte;25/marzo/2020;;;
 Granda Centeno, Casa De Venta, Centro Norte De Quito;Casa; 355000;Quito Tenis, Centro Norte;24/marzo/2020;;;
 Casa De Venta Con Jardín Y Terraza, Norte De Quito, Sector Colegios Martim Cereré, Sek, Lethort, Tomás Moro;Casa; 137000;San Isidro Del Inca, Centro Norte;23/marzo/2020;;;
@@ -519,6 +525,7 @@ Casa En Venta, Conjunto Privado / San Juan De Cumbayá;Casa; 220000;Cumbaya, Vall
 Vendo Hermosa Casa Con Terreno - La Morita - Tumbaco;Casa; 690000;Tumbaco, Valle Tumbaco;19/marzo/2020;;;
 Casa De Venta En Carapungo;Casa; 80000;Carapungo, Calderón, Norte De Quito;19/marzo/2020;;;
 Casa De Venta, Armenia, 183 M2, Urbanización Cerrada $156000;Casa; 139500;Conocoto, Valle Los Chillos;14/marzo/2020;;;
+Vendo Hermosa Casa En Cumbaya;Casa; 250000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
 Venta Suite Sector Av. De Los Granados;Departamentos; 45000;Jipijapa, Centro Norte;10/marzo/2020;;;
 Casas De Venta En Llano Chico;Casa; 69990;Llano Chico, Norte De Quito;18/marzo/2020;;;
 Vendo Casa Norte De Quito, El Condado;Casa; 278000;Cotocollao, Norte De Quito;10/marzo/2020;;;
@@ -527,7 +534,6 @@ Departamento En Venta 2 Dormitorios Oportunidad;Departamentos; 83000;Rumipamba, 
 Venta Casa, Sector Amagasi Del Inca, Embajada Americana, Colegio Sek;Casa; 150000;Kennedy, Centro Norte;16/marzo/2020;;;
 Venta Departamento Sector Kennedy;Departamentos; 125000;Kennedy, Centro Norte;16/marzo/2020;;;
 Casa De Venta En Conjunto 170 M Sector Colegio Sek Cerca Embajda Americana, 3 Habitaciones,2 Parqueaderos Independientes;Casa; 175000;San Isidro Del Inca, Centro Norte;11/marzo/2020;;;
-Departamento Dos Hemisferios, 3 Dormitorios, Con Mejoras, Primer Piso $62.000 Negociables, Acepto Biess;Departamentos; 62000;Pomasqui, Norte De Quito;16/marzo/2020;;;
 Amplia Casa De 4 Dormitorios Y Gran Jardin, Cerca Del Rancho San Francisco. Por Viaje Se Bajan Precio , Gran Oportunidad;Casa; 420000;Puengasí, Centro Colonial;15/marzo/2020;;;
 Vendo Casa De Oportunidad Sector Solanda ,Barrio Alvaro Perez, Cerca Mercado Mayorista;Casa; 60000;Solanda, Sur De Quito;10/marzo/2020;;;
 Ultimo Dpto En Venta De 105 M2 Granda Centeno;Departamentos; 163000;Granda Centeno, Rumipamba, Centro Norte;10/marzo/2020;;;
@@ -540,7 +546,6 @@ Casa De Venta Oportunidad Al Norte De Quito - Calderon;Casa; 198000;Calderón, No
 Puembo, Hermosa Casa En Conjunto Privado. Por Estrenar;Casa; 140000;Puembo, Valle Tumbaco;13/marzo/2020;;;
 Casa Venta Colegio San Gabriel / Granda Centeno / Rumipamba, 4 Dormitorios, 311 M2 Construcción, 390 M2 Terreno Vivienda;Casa; 335000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Hermosa Casa De Venta 249,74m2 / $210,000 O Renta $1200 - Sector San Juan De Cumbaya;Casa; 210000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
-Amplio, Comodo Y Bonito Departamento En Venta Sector San Fernando;Departamentos; 85000;Cochapamba, Centro Norte;12/marzo/2020;;;
 Departamento En Luluncoto, Excelente Estado;Departamentos; 65000;Puengasí, Centro Colonial;10/marzo/2020;;;
 Departamento En Venta - Sector Udla;Departamentos; 155000;El Inca, Jipijapa, Centro Norte;10/marzo/2020;;;
 Venta Departamento 3 Dormitorios 182mts Sector Whymper, La Carolina;Departamentos; 180000;Iñaquito, Centro Norte;11/marzo/2020;;;
@@ -555,12 +560,12 @@ Hermoso Loft Granda Centeno;Departamentos; 78900;Rumipamba, Centro Norte;10/marz
 Venta De Casas A Estrenar Dentro De Conjunto Privado En Capelo–Valle De Los Chillos–Sector Sangolquí Cerca De San Rafael;Casa; 85000;Quito;10/marzo/2020;;;
 Casa Estilo Rústico De 102.41 M2 En 2 Plantas;Casa; 70000;Calderón, Norte De Quito;10/marzo/2020;;;
 Se Vende Casa Con 1700m2 De Terreno En San Juan De Cumbaya;Casa; 340000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
-Hermosos Departamentos Y Suites En Venta Sector Privilegiado O;Departamentos; 142000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Casa De Venta Ubicada En Pinar De La Sierra, Conocoto;Casa; 83000;Conocoto, Valle Los Chillos;09/marzo/2020;;;
 Se Vende Casa Grande Rentera En Remodelacion Sur, Sector San Diego, Negociable;Casa; 140000;Centro De Quito, Centro Colonial;10/marzo/2020;;;
 Venta Departamento Sector Udla, Granados, Centro Norte, Uio;Departamentos; 65000;El Inca, Jipijapa, Centro Norte;10/marzo/2020;;;
 Mirasierra-Valle De Los Chillos Departamento 2 Dormitorios Por Estrenar En Venta;Departamentos; 84252;Alangasí, Valle Los Chillos;10/marzo/2020;;;
 Cumbaya, La Primavera 1, Suite De Venta En Edificio Moderno;Departamentos; 120000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
+Casa O Departamento De Campo En Pakakuna Gardens Unico Y Hermoso Proyecto En Checa, Rodeado De Naturaleza Y Spa;Departamentos; 245000;Checa, Valle Tumbaco;10/marzo/2020;;;
 Vendo Hermosa Casa Esquinera Cj. Alcazar De Burgos;Casa; 108000;Pomasqui, Norte De Quito;10/marzo/2020;;;
 Venta De Casa Nueva Aplica Biess Valle De Los Chillos;Casa; 165000;Quito;10/marzo/2020;;;
 Departamentos Sector Solca, Embajada Americana, Urb. Jardines De Amagasí, Colegio Sek;Departamentos; 103330;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
@@ -573,7 +578,7 @@ Venta Departamento 2 Dormit. $ 69.000 E. Alfaro Y Los Laureles;Departamentos; 69
 Venta De Casa Sector Bellavista;Casa; 200000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
 Venta De Casa Independiente En Conocoto En La Urbanización San Jose Del Valle De Los Chillos;Casa; 310000;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Departamento De Venta, Norte De Quito, Sector Amazanas Y Colon;Departamentos; 114500;Mariscal Sucre, Centro Norte;10/marzo/2020;;;
-Vendo Departamento, Gonzalez Suarez;Departamentos; 230000;Gonzalez Suarez, Iñaquito, Centro Norte;10/marzo/2020;;;
+Vendo Departamento, Gonzalez Suarez;Departamentos; 230000;Gonzalez Suarez, Iñaquito, Centro Norte;07/04/2020;;;
 Cerca A La Carolina;Departamentos; 167000;Iñaquito, Centro Norte;10/marzo/2020;;;
 Casas San Rafael Cerca Espe;Casa; 150000;Quito;10/marzo/2020;;;
 Venta Departamento Sector Eloy Alfaro;Departamentos; 90000;Iñaquito, Centro Norte;10/marzo/2020;;;
@@ -581,7 +586,6 @@ Carapungo, $78.000, Vendo Casa 200m2 , 2 Plantas, Con Un Frente A La Via Princip
 Departamento De Venta Calderón;Departamentos; 68055;Calderón, Norte De Quito;10/marzo/2020;;;
 Departamento De 2 Dormitorios Sector Gonzalez Suarez;Departamentos; 182197;Gonzalez Suarez, Iñaquito, Centro Norte;10/marzo/2020;;;
 Casa De Lujo De Venta En Cumbayá Cerca De La Usfq - Paseo San Francisco;Casa; 475000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
-Venta Departamentos En Tumbaco, Sector Tola Chica Cerca De Av. Interoceánica Y Ruta Viva;Departamentos; 135000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Departamento En Venta, Ponceano Precio Reducido! - Wasi;Departamentos; 95000;Ponceano, Norte De Quito;27/marzo/2020;;;
 Casa En Venta, Cumbayá;Casa; 1650000;Cumbaya, Valle Tumbaco;16/marzo/2020;;;
 Departamentos Venta;Departamentos; 49900;Calderón, Norte De Quito;16/marzo/2020;;;
@@ -591,18 +595,20 @@ Casa Rentera En Obra Gris, Con Dos Departamentos Terminados;Casa; 60000;Ponceano
 Casa Venta;Casa; 115000
             $60 alicuota;El Condado, Norte De Quito;22/febrero/2020;;;
 Departamento En Venta, Sector Monteserrín, 184 Mts 2;Departamentos; 205000;Monteserrin, Jipijapa, Centro Norte;03/abril/2020;;;
+Hermoso Departamento En Quito Tenis, Con Balcón, 3 Dormitorios;Departamentos; 170000;Rumipamba, Centro Norte;06/abril/2020;138;3;
+Vendo Departamento. Vista Hermosa. Cotocollao;Departamentos; 120000;Cotocollao, Norte De Quito;06/abril/2020;;;
+Venta El Bosque Carvajal Y Brasil,Oportunidad Casa En Venta;Casa; 480000;Rumipamba, Centro Norte;14/marzo/2020;;;
+Excelente Casa En Venta Sector Ponceano Norte De Quito En La Mercedes Gonzalez Y Alberto Einstein;Casa; 240000;Ponceano, Norte De Quito;27/marzo/2020;;;
+C/ González Suárez, Departamento De 210m2 En Venta, 3 Habitaciones;Departamentos; 238000;Gonzalez Suarez, Iñaquito, Centro Norte;07/04/2020;;;
+Cumbaya Dos Departamentos A Estrenar - Sector Urbanización Auqui Chico;Departamentos; 588587;Cumbaya, Valle Tumbaco;04/abril/2020;;;
 Venta De Oportunidad - Quinta De Venta, 4 Dormitorios De Lujo, Sector Yanahuaico, Vía Amaguaña;Casa; 580000;Amaguaña, Sur De Quito;13/marzo/2020;;;
-Puembo Casa De Lujo En Venta En La Urb. Arrayanes;Casa; 1450000;Puembo, Valle Tumbaco;04/abril/2020;;;
 402 Quito Tenis. Vendo Departamento 75 Metros De 2 Dormitorios Con Balcón. A Estrenar;Departamentos; 140000;Rumipamba, Centro Norte;04/abril/2020;;;
 Departamento De Venta, Norte De Quito, Colegio Einstein,;Departamentos; 110000;La Concepcion, Concepción, Centro Norte;03/abril/2020;;;
 Departamento De Venta En El Quito Tenis;Departamentos; 260000;Rumipamba, Centro Norte;03/abril/2020;;;
-C/ El Bosque, Suite De 60m2 En Venta, A Una Cuadra Del CC El Bosque;Departamentos; 97000;Cochapamba, Centro Norte;03/abril/2020;;;
 Vendo Departamento Sector El Bosque;Departamentos; 138000;Cochapamba, Centro Norte;02/abril/2020;;;
 Oportunidad!!! Hermosa Quinta Con Casa Y Construcción Adicional, A 2 Min Del Parque Metropolitano De La Armenia;Casa; 480000;Conocoto, Valle Los Chillos;02/abril/2020;;;
 Casa De Venta En Tumbaco, Sector Ruta Viva, Amplio Jardin.;Casa; 174000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Iñaquito Alto Vendo/ Rento Departamento;Departamentos; 135000;Iñaquito Alto, Rumipamba, Centro Norte;10/marzo/2020;;;
-Venta El Bosque Carvajal Y Brasil,Oportunidad Casa En Venta;Casa; 480000;Rumipamba, Centro Norte;14/marzo/2020;;;
-Vendo Departamento En Quito Tenis;Departamentos; 238000;Rumipamba, Centro Norte;19/marzo/2020;;;
 Vendo Espectacular Departamento Norte De Quito;Departamentos; 148000;San Isidro Del Inca, Centro Norte;31/marzo/2020;;;
 Casa De Venta En Amaguaña, Conjunto Privado;Casa; 170000;Amaguaña, Sur De Quito;16/marzo/2020;;;
 Venta Hermoso Departamento 2 Dormitorios. Sector El Batan / Norte De Quito;Departamentos; 120000;Iñaquito, Centro Norte;22/marzo/2020;;;
@@ -617,7 +623,6 @@ Venta De Departamento, Dos Habitaciones. Sector La Carolina;Departamentos; 10000
 Vendo Hermosos Departamentos Por Estrenar En Edificio , Acabados De Lujo Sector El Inca;Departamentos; 137000;Kennedy, Centro Norte;28/marzo/2020;;;
 Casa De Venta Tumbaco 4 Habitaciones Jardín;Casa; 300000;Tumbaco, Valle Tumbaco;31/marzo/2020;;;
 Casa En Venta En La Armenia Ii, Puente 8;Casa; 179000;Conocoto, Valle Los Chillos;19/marzo/2020;;;
-Excelente Departamento En Venta Centro Norte De Quito Calle Bosmediano Sector Bellavista;Departamentos; 440000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
 Casa Venta, Conjunto La Campiña, Entre Escu. Militar Y Escu De Policía;Casa; 240000;El Condado, Norte De Quito;27/marzo/2020;;;
 Venta De Casa Independiente Y Con Terreno, En Urbanización Cerrada, 4 Alcobas Y 4 Estacionamientos;Casa; 270000;Quito;26/marzo/2020;;;
 Ganga! Vendo Casa Quito Tenis $220.000;Casa; 220000;Rumipamba, Centro Norte;19/marzo/2020;;;
@@ -629,7 +634,7 @@ Venta Casa Independiente Carapungo Frente Municipio Calderón, Gran Aki;Casa; 890
 Departamento En Venta Quito/ Llano Grande/ Calderón 100% Biess;Departamentos; 75900;Calderón, Norte De Quito;22/marzo/2020;;;
 Casa En Venta En San Isidro Del Inca/ 3 Dormitorios En Conjunto Privado;Casa; 124000;San Isidro Del Inca, Centro Norte;27/marzo/2020;;;
 Hermosa Casa De Venta En Tumbaco 150 M2 Hab, 2.720 M2 Terrenoen Sector Exclusivo.;Casa; 320000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
-Vendo Suite Nueva Por Estrenar/ Sector La Carolina;Departamentos; 99700;Iñaquito, Centro Norte;21/marzo/2020;;;
+Vendo Suite Por Estrenar/ Sector La Carolina;Departamentos; 95900;Iñaquito, Centro Norte;07/04/2020;;;
 Suite En Venta Junto Al Swiss Hotel;Departamentos; 80000;Mariscal Sucre, Centro Norte;04/abril/2020;;;
 Vendo Casas De 2 Pisos En Marianitas Aplica Crédito Vip;Casa; 69900;Calderón, Norte De Quito;10/marzo/2020;;;
 Se Vende Casa Pusuqui;Casa; 105000;Pomasqui, Norte De Quito;20/marzo/2020;;;
@@ -649,13 +654,10 @@ La Kennedy, Casa Rentera, 517 M2, 4 Departamentos, 1 Local, 3 Parqueaderos;Casa;
 Se Vende Casa Valle Los Chillos Puente 9 Armenia;Casa; 179000;Conocoto, Valle Los Chillos;29/marzo/2020;;;
 Casa De Venta,Sector Colegio De La Liga Urb.Liga Cod 105-5;Casa; 100000;Pomasqui, Norte De Quito;10/marzo/2020;;;
 Edificio Ecoeficiente De Suite 1 Dorm. Shyris;Departamentos; 96900;Iñaquito, Centro Norte;10/marzo/2020;;;
-Tv:Me Quede Sin Trabajo !!Vendo Casa 4 Dormitorios Sector Ant Norte Quito;Casa; 105000;Cochapamba, Centro Norte;10/marzo/2020;;;
 Venta Casas Calderon Norte De Quito;Casa; 93000;Puengasí, Centro Colonial;10/marzo/2020;;;
 Venta De Casa Rentera 3ra Etapa Sector Carapungo, Norte De Quito;Casa; 122000;Carapungo, Calderón, Norte De Quito;10/marzo/2020;;;
-249 - Departamento De Venta Tumbaco 3 Dorm Sector La Morita Ruta Viva, Fácil Salida A Puembo, Cumbayá, Los Chillos;Departamentos; 188000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Departamento En Venta Ponceano 3 Dormitorios, 3 Parqueos;Departamentos; 125000;Ponceano, Norte De Quito;10/marzo/2020;;;
 Vendo Departamento Sector Quito Tenis;Departamentos; 68000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Casa Con Amplio Terreno Y Suites Independientes En Tumbaco;Casa; 950000;Tumbaco, Valle Tumbaco;03/abril/2020;;;
 Vendo Departamento 101 M2 Sector El Eden;Departamentos; 83000;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
 Casa De Venta Con Terreno Para Construir / Ponciano Alto- Norte Quito;Casa; 270000;Ponceano, Norte De Quito;10/marzo/2020;;;
 Casa Terreno De Venta Sector Conocoto Ontaneda;Casa; 249990;Conocoto, Valle Los Chillos;19/marzo/2020;;;
@@ -705,28 +707,35 @@ Venta O Arriendo Dpto La Brasil;Departamentos; 230000;Rumipamba, Centro Norte;24
 Vendo Hermosa Casa Av. Occidental Lugar Exclusivo;Casa; 95000;Belisario Quevedo, Centro Norte;10/marzo/2020;;;
 Hermosa Casa 4 Dormitorios 5 Baños 4 Garage Bodega Estudio Porche Sector Amagasi;Casa; 339800;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
 Hermoso Depart Por Estrenar Monteserrin Bajo;Departamentos; 128000;Monteserrin, Jipijapa, Centro Norte;10/marzo/2020;;;
-Vendo Exclusivo Departamento En República De El Salvador;Departamentos; 375000;Iñaquito, Centro Norte;22/marzo/2020;;;
+Vendo Exclusivo Penthouse En Suiza Y Eloy Alfaro;Departamentos; 330000;Iñaquito, Centro Norte;05/abril/2020;;;
 Departamento A Estrenar 3 Dormitorios En Venta - Av. Orellana - Centro Norte Quito;Departamentos; 164927;Mariscal Sucre, Centro Norte;27/marzo/2020;;;
 Amplia Casa Con Gran Terreno Al Sur De Quito;Casa; 165000;Quitumbe, Sur De Quito;10/marzo/2020;;;
 Vendo Casa Rentera Esquinera Kennedy 588 M²;Casa; 500000;Kennedy, Centro Norte;31/marzo/2020;;;
 En Venta Hermosa Suite (11vo Piso), En La Bosmediano;Departamentos; 81000;Bellavista, Iñaquito, Centro Norte;10/marzo/2020;;;
 Casa De Venta En Zabala Bajo, Norte De Quito;Casa; 85000;Calderón, Norte De Quito;10/marzo/2020;;;
-Venta / Vendo Departamento 2 Habitaciones Sector Carolina, Amazonas, Naciones Unidas;Departamentos; 110000;Iñaquito, Centro Norte;20/marzo/2020;;;
 Casa De Venta Por Terminar, Los Chillos, La Espe. Terreno 450 M2;Casa; 125000;Quito;10/marzo/2020;;;
 Suites En La Carolina Edificio Epiq Sd5;Departamentos; 140659;Iñaquito, Centro Norte;01/abril/2020;;;
-Vendo Departamento 162.50m2 En Cumbayá Con Terraza Y Jardín Adicional;Departamentos; 290000;Cumbaya, Valle Tumbaco;04/abril/2020;;;
+Departamento Dos Hemisferios, 3 Dormitorios, Primer Piso, Con Mejora, Lámparas,Cortinas,Piso Flotante $62.000 Negociable;Departamentos; 62000;Pomasqui, Norte De Quito;16/marzo/2020;;;
+Amplio, Comodo Y Bonito Departamento En Venta Sector San Fernando;Departamentos; 85000;Cochapamba, Centro Norte;12/marzo/2020;;;
+Casa De Venta En Calderon, Vía Marianitas, Llano Grande, Chico,Carapungo, Ism Calderon;Casa; 72000;Calderón, Norte De Quito;06/abril/2020;;;
+Venta De Departamento De 105m² Granda Centeno, Quito;Departamentos; 149000;Granda Centeno, Rumipamba, Centro Norte;11/marzo/2020;;;
+Casas De 85 Metros Credito Vip Al 4,99% En Calderon Marianitas;Departamentos; 74990;Calderón, Norte De Quito;10/marzo/2020;;;
+Casas En Venta En Calderón;Casa; 81500;Calderón, Norte De Quito;07/04/2020;;;
+Vendo Departamento 2 Dormitorios, 90 M2, República Del Salvador, Parque La Carolina;Departamentos; 123000;Iñaquito, Centro Norte;24/marzo/2020;;;
+Casa De Venta En Quito Tenis, A Unos 5 Minutos Del Cc El Bosque Norte De Quito;Casa; 1800;Rumipamba, Centro Norte;20/marzo/2020;;;
+Venta Departamento Mitad Del Mundo;Departamentos; 50000;San Antonio De Pichincha, Norte De Quito;07/04/2020;;;
+Se Vende, Casa, En Tumbaco, Pocos Metros De La Ruta Viva;Casa; 320000;Tumbaco, Valle Tumbaco;05/abril/2020;;;
+Venta Departamento En Tumbaco Cerca De Av. Interoceanica Y Ruta Viva, Sector Ruta Viva;Departamentos; 140000;Tumbaco, Valle Tumbaco;06/abril/2020;;;
+Casa De Venta Dentro De Conjunto Privado Entumbaco;Casa; 148000;Tumbaco, Valle Tumbaco;05/abril/2020;;;
+Vendo Casa En Calderon A Estrenar 85.000 Dolares Sector Marianitas;Casa; 85000;Calderón, Norte De Quito;27/marzo/2020;;;
 Venta Casa, 222,39m², 3 Dormitorios, Cumbayá;Casa; 299000;Cumbaya, Valle Tumbaco;30/marzo/2020;;;
 Vendo Casa En Conjunto En San Juan De Cumbayá;Casa; 138000;Cumbaya, Valle Tumbaco;04/abril/2020;;;
-Venta De Departamento De 105m² Granda Centeno, Quito;Departamentos; 149000;Granda Centeno, Rumipamba, Centro Norte;11/marzo/2020;;;
 Vendo Departamento Para Inversion Sector Gonzalez Suarez;Departamentos; 220000;Gonzalez Suarez, Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Casa Rentera Pomasqui;Casa; 195000;Pomasqui, Norte De Quito;03/abril/2020;;;
-En Venta Departamento Duplex, Sector Gonzalez Suarez, Calle La Coruña;Departamentos; 255000;Iñaquito, Centro Norte;03/abril/2020;;;
 Casa De Venta Colinas Del Pichincha;Casa; 270000;Quito Tenis, Centro Norte;22/marzo/2020;;;
 Vendo Hermosa Suite Por Estrenar Los Laureles - Monteserrín;Departamentos; 79000;Jipijapa, Centro Norte;01/abril/2020;;;
 Al Mejor Precio! Hermosa Casa Dentro De Conjunto!;Casa; 244263;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Venta De Hermosa Casa En Él Valles De Los Chillo;Casa; 130000;Chimbacalle, Sur De Quito;10/marzo/2020;;;
 Venta Casa, Sector Quitumbe;Casa; 63000;Quitumbe, Sur De Quito;19/marzo/2020;;;
-Cumbaya Venta Departamento Por Estrenar Con Hermosa Vista;Departamentos; 323298;Cumbaya, Valle Tumbaco;01/abril/2020;;;
 Venta Departamento Pomasqui;Departamentos; 69000;Pomasqui, Norte De Quito;30/marzo/2020;;;
 Amplio Departamento En Venta, Espectacular Vista, 4 Dormitorios, Quito Tenis;Departamentos; 295000;Cochapamba, Centro Norte;01/abril/2020;;;
 Oportunidad Venta Departamento Duplex San Blas Centro De Quito Remodelado;Departamentos; 60000;Centro De Quito, Centro Colonial;01/abril/2020;;;
@@ -734,23 +743,16 @@ Casa De Venta En Tumbaco;Casa; 150000;Tumbaco, Valle Tumbaco;20/marzo/2020;;;
 Venta Departamento Urb. El Condado;Departamentos; 88900;El Condado, Norte De Quito;13/marzo/2020;;;
 Departamento En La Carolina;Departamentos; 162500;Iñaquito, Centro Norte;13/marzo/2020;;;
 Vendo Linda Casa, Miravalle 1. 4 Dormitorios.;Casa; 380000;Miravalle, Nayon - Tanda, Valle Tumbaco;17/marzo/2020;;;
-Casa Independiente Rumiñahui;Casa; 155000;Kennedy, Centro Norte;31/marzo/2020;;;
 Suite Con Patio En El Quito Tenis De Venta;Departamentos; 109000;Rumipamba, Centro Norte;29/marzo/2020;;;
-Vendo Casa En Calderon A Estrenar 85.000 Dolares Sector Marianitas;Casa; 85000;Calderón, Norte De Quito;27/marzo/2020;;;
 Casa En Venta, Sector San Jose De Jarrín, Cotocollao, Cerca Al Colegio Mena Del Hierro, Norte De Quito;Casa; 94000;Cotocollao, Norte De Quito;31/marzo/2020;;;
-Vendo Hermosa Casa En Cumbaya;Casa; 250000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
-Casa O Departamento De Campo En Pakakuna Gardens Unico Y Hermoso Proyecto En Checa, Rodeado De Naturaleza Y Spa;Departamentos; 245000;Checa, Valle Tumbaco;10/marzo/2020;;;
 Sn Patricio Cumbaya Venta Urgente Ayudamos En El Financiamiento;Casa; 380000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
 Casa En Carapungo Cerca Parqueadero Juan Montalvo Amplia Y Cuatro Dormitorios;Casa; 125000;Carapungo, Calderón, Norte De Quito;10/marzo/2020;;;
-Venta De Casa En Centro Comercial El Portal Carapungo Carretas Llano Grande Y Llano Chico, San Camilo;Casa; 75000;Calderón, Norte De Quito;30/marzo/2020;;;
 Vendo Departamento En Condominios Jardines De California;Departamentos; 48000;Kennedy, Centro Norte;16/marzo/2020;;;
-Casa De Venta En Quito Tenis, A Unos 5 Minutos Del Cc El Bosque Norte De Quito;Casa; 1800;Rumipamba, Centro Norte;20/marzo/2020;;;
 Venta Departamento Tres Habitaciones Nuevo A Estrenar Amplio Cerca Centro Comercial Plaza Real “Calderón” $75.000;Departamentos; 75000;Calderón, Norte De Quito;27/marzo/2020;;;
 Zamora Y Brasil Suite Con Patio $66.000;Departamentos; 66000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Centro Norte, Sector Universidad Católica Suite En Venta;Departamentos; 79336;Mariscal Sucre, Centro Norte;12/marzo/2020;;;
 Departamento En Calderón - Sector Colegio Del Milenio - Si Aplica A Crèdito Vip - Si Venezolanos, Extranjeros Y Nacional;Departamentos; 43990;Calderón, Norte De Quito;26/marzo/2020;;;
 Casa Nueva En Venta Al Sur De Quito Sector Martha Bucaram;Casa; 91000;La Ecuatoriana, Sur De Quito;26/marzo/2020;;;
-Vendo Casa En Guayllabamba 170 Mts Y 2950 Mts De Terreno;Casa; 165000;Guayllabamba, Norte De Quito;13/marzo/2020;;;
 Departamento En Venta. Sector La Floresta. Negociable.;Departamentos; 149000;Mariscal Sucre, Centro Norte;24/marzo/2020;;;
 González Suárez, Estrene Departamento De Venta;Departamentos; 220000;Gonzalez Suarez, Iñaquito, Centro Norte;10/marzo/2020;;;
 Departamento En Venta 3 Dormitorios, Norte De Quito, Avenida Occidental, Antigua Jefatura De Tránsitoo;Departamentos; 48000;Cochapamba, Centro Norte;23/marzo/2020;;;
@@ -765,13 +767,12 @@ Casa Esquinera En Venta La Primavera (Cumbayá) Piscina, Sala De Juegos;Casa; 500
 Venta Departamentos Por Estrenar - 3 Habitaciones - 23 De Junio;Departamentos; 80000;Cotocollao, Norte De Quito;19/marzo/2020;;;
 Apartamento De Venta Conjunto Roca Azul, Santa Lucia;Departamentos; 115000;Comité Del Pueblo, Centro Norte;19/marzo/2020;;;
 Casa De Venta En San Antonio De Pichincha, Mitad Del Mundo, Norte De Quito, Zona Equinoccial, Cemexpo;Casa; 84000;San Antonio De Pichincha, Norte De Quito;10/marzo/2020;;;
+Venta De Departamento Sector Lomas De Monteserrín Cerca Al Ecopark;Departamentos; 160000;Monteserrin, Jipijapa, Centro Norte;10/marzo/2020;;;
 Venta Departamentos A Estrenar Urbanización El Condado;Departamentos; 159626;El Condado, Norte De Quito;10/marzo/2020;;;
 Exclusiva Casa Lomas De Cumbaya 564 Mts Totalmente Remodelada;Casa; 517000;Tumbaco, Valle Tumbaco;18/marzo/2020;;;
 Venta Departamento 3 Habitaciones,Sector Colegios Sek, Martin Cerere;Departamentos; 79000;Cumbaya, Valle Tumbaco;16/marzo/2020;;;
 Venta Casa En Conjunto 90m2 Sector Cotocollao;Casa; 110000;Cotocollao, Norte De Quito;16/marzo/2020;;;
 Departamento Venta Av. De Los Granados, Centro Norte De Quito;Departamentos; 154000;El Inca, Jipijapa, Centro Norte;10/marzo/2020;;;
-Casa Dos Hemisferios,Amplia, 2 Pisos, 106m2, Cerca A Colegios Importantes, A Solo 5 Minutos Del Condado Shopping $87.000;Casa; 87000;Pomasqui, Norte De Quito;13/marzo/2020;;;
-Bonita Casa Remodelada , Con Jardin, Cerca De Colegio Tomas Moro, Martin Cerere, Embajada Americana, Solca;Casa; 148000;San Isidro Del Inca, Centro Norte;06/marzo/2020;;;
 Venta Casa Amplia, En Conjunto. Av Plaza Lasso Y Bellavista, Iglesia Divino Niño;Casa; 110000;Ponceano, Norte De Quito;10/marzo/2020;;;
 Acogedor Departamento De Venta 98 M² Sector Monteserrín. / A. C;Departamentos; 99000;Monteserrin, Jipijapa, Centro Norte;10/marzo/2020;;;
 Venta De Casa En Cumbaya;Casa; 290000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
@@ -780,7 +781,6 @@ Venta Casa Rentera Capelo;Casa; 219900;Quito;10/marzo/2020;;;
 Venta De Casa En Nayón, Calle Tacuri, Norte De Quito;Casa; 399000;Nayon - Tanda, Valle Tumbaco;13/marzo/2020;;;
 Casa De Venta En Santa Bárbara De Chillogallo, Sur De Quito;Casa; 58000;La Mena, Sur De Quito;12/marzo/2020;;;
 Departamento Venta 363 M2 Colinas Del Pichincha / El Bosque / Granda Centeno, 3 Dormitorios, Terraza 100 M2, Quito Norte;Departamentos; 265000;Rumipamba, Centro Norte;10/marzo/2020;;;
-Bonita Casa Dentro De Conjunto En Venta Sector Conocoto;Casa; 98000;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Amplio Departamento Ubicado En Ciudadela Chiriacu De Monjas, La Ferroviaria;Departamentos; 50000;La Ferroviaria, Sur De Quito;10/marzo/2020;;;
 Ponceano Alto - Departamento En Venta Precio A Negociar;Departamentos; 118500;Ponceano, Norte De Quito;10/marzo/2020;;;
 Venta Casa Ciudadela Atahualpa, Sur De Quito, Atrás De La Tribuna Del Sur;Casa; 106000;La Magdalena, Sur De Quito;10/marzo/2020;;;
@@ -793,12 +793,12 @@ Venta Departamento 2 P 11 La Carolina;Casa; 138000;Iñaquito, Centro Norte;10/mar
 Casas Conocoto La Salle;Casa; 94900;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Casas A Estrenar En Venta Dentro De Conjunto Privado En Capelo–Valle De Los Chillos–Sector Sangolquí Cerca De San Rafael;Casa; 85000;Quito;10/marzo/2020;;;
 Departamento, Vista Panorámica, Jardines Del Batán;Departamentos; 270000;Iñaquito, Centro Norte;10/marzo/2020;;;
-Departamentos Hermosos Excelente Precio Y Excelente Ubicacion Ponceano-La Rumiñahui Norte De Quito;Departamentos; 109000;Ponceano, Norte De Quito;10/marzo/2020;;;
 Casa De Venta, Sangolqui, Bohios Jatumpamba;Casa; 228000;Sangolqui, Valle Los Chillos;09/marzo/2020;;;
 Venta Casa Grande Rentera En Remodelacion Al Centro Sur De Quito, Sector San Diego, Con Dos Frentes, Con Local Comercia;Casa; 140000;Centro De Quito, Centro Colonial;10/marzo/2020;;;
 Venta Suite En El Edificio Athelier Perfecta Para Inversión, Centro Norte, Uio;Departamentos; 100000;Iñaquito, Centro Norte;10/marzo/2020;;;
 Mirasierra-Valle De Los Chillos Departamento 2 Dormitorios Por Estrenar En Venta;Departamentos; 90832;Alangasí, Valle Los Chillos;10/marzo/2020;;;
 Nayon, Departamento Con Jardín De Venta, En Conjunto Cerrado Con Seguridad;Departamentos; 165000;Nayon - Tanda, Valle Tumbaco;10/marzo/2020;;;
+Departamento Moderno De Lujo En Santa Lucia Alta, Cumbaya, De 3 Dormitorios Con Pergola Y Jacuzzi;Departamentos; 595000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
 Venta De Casa Independiente Urb. Coopedac Aplica 6.99 % Biess Valle De Los Chillos;Casa; 129000;Quito;10/marzo/2020;;;
 Departamento En La Vasco De Contreras, Cerca Al Colegio San Gabriel – Plaza De Las Americas;Departamentos; 116870;Rumipamba, Centro Norte;10/marzo/2020;;;
 Casas De 4 Dorm. En Venta Con 2 Amplios Master Walking Closet Y Baño Privado, Capelo;Casa; 149000;Quito;10/marzo/2020;;;
@@ -811,34 +811,36 @@ Departamento En Venta;Departamentos; 116500;La Luz, Kennedy, Centro Norte;10/mar
 Venta Suite Parque Metropolitano;Departamentos; 69000;Iñaquito, Centro Norte;10/marzo/2020;;;
 San Sebastian De Calderon 2;Casa; 48500;Calderón, Norte De Quito;10/marzo/2020;;;
 Casa Rentera De Venta Sur De Quito. Diagonal A La Parada Del Corredor Sur La Santiago;Casa; 155000;San Bartolo, Sur De Quito;10/marzo/2020;;;
-Venta Departamento Duplex 3 Habitaciones, Cumbaya;Departamentos; 359000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
+Venta Departamento Duplex 3 Habitaciones, Cumbaya;Departamentos; 359000;Cumbaya, Valle Tumbaco;07/04/2020;;;
 Cerca Al Jardin;Departamentos; 165000;Iñaquito, Centro Norte;10/marzo/2020;;;
 Venta Departamento Amagasi Del Inca Quito, Pichincha;Departamentos; 160000;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
 Venta Departamento Sector Centro Norte;Departamentos; 140000;El Inca, Jipijapa, Centro Norte;10/marzo/2020;;;
 Ontaneda. $218.000. Vendo Casa. 2 Plantas. Conocoto.;Casa; 218000;Iñaquito, Centro Norte;10/marzo/2020;;;
 Venta De Casa Sector Calderón;Casa; 100728;Calderón, Norte De Quito;10/marzo/2020;;;
-Loft En Venta En El Sector De La Coruña Por Estrenar;Departamentos; 113360;Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Departamento En Tumbaco Cerca De Av. Interoceanica Y Ruta Viva, Sector Ruta Viva;Departamentos; 140000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
+Loft En Venta En El Sector De La Coruña Por Estrenar;Departamentos; 113360;Iñaquito, Centro Norte;07/04/2020;;;
 Venta Suite Sector La Carolina CCI $93,000 - Wasi;Casa; 93000;Iñaquito, Centro Norte;26/marzo/2020;;;
 Mariano Pozo 56;Departamentos; 130000
             $80 alicuota;Ponceano, Norte De Quito;31/marzo/2020;;;
+249 - Departamento De Venta Tumbaco 3 Dorm Sector La Morita Ruta Viva, Fácil Salida A Puembo, Cumbayá, Los Chillos;Departamentos; 188000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Departamento Penthouse En Venta, Quito Tenis De Oportunidad;Departamentos; 267000;Rumipamba, Centro Norte;13/marzo/2020;;;
-Venta Casa Sector San Pedro De Taboada;Casa; 219000;Quito;03/abril/2020;;;
+Venta Departamento Sector El Batán A Estrenar;Departamentos; 219239;Jipijapa, Centro Norte;06/abril/2020;;;
 Av. República Del Salvador 123;Departamentos; 152000
             $210 alicuota;La Carolina, Iñaquito, Centro Norte;06/noviembre/2019;;;
 Casa Amplia Rentera Para Remodelacion;Casa; 135000;San Juan, Centro Colonial;10/marzo/2020;;;
 Departamento A La Venta, Urb.El Condado, 123 Mts 2;Departamentos; 140000;Cotocollao, Norte De Quito;03/abril/2020;;;
+Departamento En Quito, Pinar Bajo, Venta, Por Estrenar, 2 Dormitorios;Departamentos; 120000;El Pinar, Concepción, Centro Norte;06/abril/2020;83;2;
+Casa De Venta Por Estrenar Sector Urabá 3 Dormitorios;Casa; 117000;Comité Del Pueblo, Centro Norte;06/abril/2020;;;
+Venta Departamentos Urb. El Condado 2 Y 3 Dormitorios;Departamentos; 249000;Iñaquito, Centro Norte;01/abril/2020;;;
+Excelente Suite En Venta En Centro Norte De Quito Granda Centeno;Departamentos; 92000;Granda Centeno, Rumipamba, Centro Norte;27/marzo/2020;;;
+C/ Carcelén Bajo! Hermoso Departamento De 92m2 En Venta!! A Estrenar!!;Departamentos; 90000;Carcelen, Norte De Quito;07/04/2020;;;
+Cumbaya Casa De Venta En Urbanizacion Privada;Casa; 1150000;Cumbaya, Valle Tumbaco;04/abril/2020;;;
 Departamento De Venta, 3 Dormitorios, Sector Solca, Jardines De Amagasi, Norte De Quito;Departamentos; 210000;San Isidro Del Inca, Centro Norte;13/marzo/2020;;;
-Quito Casa De Venta En Urban Privada Sector, Centro Norte De Quito;Casa; 1800000;Jipijapa, Centro Norte;04/abril/2020;;;
 406 Quito Tenis. Vendo Departamento 82,41 M 2 Dormitorios. A Estrenar;Departamentos; 148000;Rumipamba, Centro Norte;04/abril/2020;;;
 Departamento De 3 Dormitorios, Embajada Americana, Centro Norte;Departamentos; 168000;Kennedy, Centro Norte;24/marzo/2020;;;
 Departamento De Venta En Ponceano, Cerca Supermaxi;Departamentos; 160000;Ponceano, Norte De Quito;03/abril/2020;;;
-C/ Pinar Alto, Precioso Departamento De 102m2 En Venta, A Estrenar, Se Acepta Biess;Departamentos; 127000;El Pinar, Concepción, Centro Norte;03/abril/2020;;;
 Amplio Terreno Con Casa De Venta Sector San José De Cutuglagua;Casa; 45500;Guamaní, Sur De Quito;17/marzo/2020;;;
 Casa De Venta La Viña, Moderna, Elegante, Casa 400 Mts, Área Social A Doble Altura, Chimenea Exterior, Bbq.;Casa; 600000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
 Carolina Vendo Suit Con Vista Nueva Con Piscina;Departamentos; 110000;La Carolina, Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Departamentos Urb. El Condado 2 Y 3 Dormitorios;Departamentos; 249000;Iñaquito, Centro Norte;01/abril/2020;;;
-Suite De Venta Sector Cinemark, Plaza De Las Américas;Departamentos; 105000;Rumipamba, Centro Norte;19/marzo/2020;;;
 Venta De Hermosa Casa Sector Amagasí Del Inca, Embajada Americana;Casa; 138000;San Isidro Del Inca, Centro Norte;31/marzo/2020;;;
 Venta De Casa De Tres Pisos Sector – Puente 3;Casa; 131700;Conocoto, Valle Los Chillos;16/marzo/2020;;;
 Venta Departamento 3 Dormitorios En San Carlos / Norte De Quito;Departamentos; 43000;San Carlos, Concepción, Centro Norte;10/marzo/2020;;;
@@ -851,7 +853,6 @@ Venta De Casa En La Armenia, Valle De Los Chillos Oportunidad De Inversión;Casa;
 Venta Departamento Sector Estadio Olímpico – 93 M2;Departamentos; 110000;Iñaquito, Centro Norte;29/marzo/2020;;;
 Venta Amplia Casa Espe 3 Dormitorios Valle Quito Sangolqui;Casa; 87000;Quito;28/marzo/2020;;;
 Departamento En Venta Sector El Batan Cerca Al Estadio Olimpico Y Al Parque Metropolitano;Departamentos; 158000;Iñaquito, Centro Norte;19/marzo/2020;;;
-Espectacular Penthouse Duplex En Venta Sector Gonzalez Suarez Centro Norte De Quito Isabel La Catolica Y Zaldumbide;Departamentos; 750000;Mariscal Sucre, Centro Norte;10/marzo/2020;;;
 Venta Casa, Sector Colegio Alberth Einsten, Carcelen, Norte De Quito;Casa; 210000;Carcelen, Norte De Quito;27/marzo/2020;;;
 Vendo Propiedad Independiente, Esquinera, Mirasierra, 2.116m2 De Terreno400000;Casa; 420000;Alangasí, Valle Los Chillos;23/marzo/2020;;;
 Vendo Departamento Quiteño Libre 285000;Departamentos; 285000;Bellavista, Iñaquito, Centro Norte;19/marzo/2020;;;
@@ -882,14 +883,12 @@ Be/ Parque Inglés - De Venta Estupendo Departamento 3 Dormitorios Cod. De - 0011
 Tumbaco, Casa, 165 M2, 3 Habitaciones, 3 Baños, 2 Parqueaderos;Casa; 169000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Oportunidad Hermosa Propiedad De Venta Sector San Fernando;Casa; 350000;Cochapamba, Centro Norte;28/marzo/2020;;;
 Departamento En Venta Sector La Shyris;Departamentos; 169900;Iñaquito, Centro Norte;10/marzo/2020;;;
-Tv: Vendo Casa De 3 Dormitorios Sector Amagasi Del Inca;Casa; 168500;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
+Tv:Me Quede Sin Trabajo !!Vendo Casa 4 Dormitorios Sector Ant Norte Quito;Casa; 105000;Cochapamba, Centro Norte;10/marzo/2020;;;
 Venta Departamento Real Audiencia/ Galo Plaza Laso / Norte De Quito / Ponceano;Departamentos; 115000;La Merced, Valle Los Chillos;11/marzo/2020;;;
 Suite Y Departamentos De Venta Sector Occidental;Departamentos; 83342;Concepción, Centro Norte;10/marzo/2020;;;
 Venta De Casa Amoblada Sector Colegio Einstein Carcelen, Norte De Quito;Casa; 104000;Carcelen, Norte De Quito;10/marzo/2020;;;
-257 - Casa En Venta En La Armenia, Puente 3, A Pocos Minutos De Conocoto, Intervalles, El Triangulo;Casa; 224900;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Hermosa Casa 560 Mtrs, San Isidro Del Inca, Amplios Jardines;Casa; 320000;San Isidro Del Inca, Centro Norte;10/marzo/2020;;;
 Venta Departamento Localizado Republica Del Salvador;Departamentos; 118000;Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Departamento Con Amplia Terraza Y Balcón. Jardines Del Batán;Departamentos; 290000;Iñaquito, Centro Norte;03/abril/2020;;;
 Casa De Venta 202 M2 Sector Carcelen;Casa; 165000;Carcelen, Norte De Quito;10/marzo/2020;;;
 Venta Casa Independiente Sector Norte Condado Consejo Provincial;Casa; 68000;El Condado, Norte De Quito;10/marzo/2020;;;
 Casa En Venta Sector Tumbaco;Casa; 119990;Tumbaco, Valle Tumbaco;19/marzo/2020;;;
@@ -934,46 +933,45 @@ Vendo Departamento Wimper Y Coruña;Departamentos; 161000;Iñaquito, Centro Norte;
 Venta Casa Con Negocio En Chillogallo Sur De Quito / Piscina, Sauna, Turco, Hidromasaje;Casa; 160000;Chillogallo, Sur De Quito;10/marzo/2020;;;
 Nuevo Precio!! Linda Casa Remodelada Con Local Comercial 4 Dormitorios Garage Patio / Carapungo;Casa; 66800;Carapungo, Calderón, Norte De Quito;10/marzo/2020;;;
 Yaruqui, Sector Otompe Veloz Hermosa Finca 32.600 M2;Casa; 650000;Yaruqui, Valle Tumbaco;24/marzo/2020;;;
-Vendo Dpto 2 Dormitorios En Av Galo Plaza Y Nazareth;Departamentos; 68000;Ponceano, Norte De Quito;12/marzo/2020;;;
+Vendo Exclusivo Departamento En República De El Salvador;Departamentos; 375000;Iñaquito, Centro Norte;22/marzo/2020;;;
 Casa En Venta A Estrenar - San Juan De Calderón - Crédito Vip;Casa; 49637;Calderón, Norte De Quito;27/marzo/2020;;;
 Vendo Departamento 3 Dorm. Norte De Quito Galo Plaza;Departamentos; 57000;Kennedy, Centro Norte;30/marzo/2020;;;
 En Venta Hermoso Duplex, Con Dos Terrazas En La California Alta;Departamentos; 125000;Kennedy, Centro Norte;10/marzo/2020;;;
 Departamento En Venta Por Estrenar Ponceano Bajo, Norte De Quito;Departamentos; 89500;Comité Del Pueblo, Centro Norte;10/marzo/2020;;;
-Venta / Vendo Departamento 2 Habita Sector República Del Salvador, 6 De Diciembre, Pocas Cuadras De La Carolina;Departamentos; 270000;Iñaquito, Centro Norte;20/marzo/2020;;;
+Venta / Vendo Departamento 2 Habitaciones Sector Carolina, Amazonas, Naciones Unidas;Departamentos; 110000;Iñaquito, Centro Norte;20/marzo/2020;;;
 Departamento De Venta, Quito, La Floresta, 3 Dormitorios, 170 Metros;Departamentos; 220000;Mariscal Sucre, Centro Norte;10/marzo/2020;;;
-Casa En Venta 141m2 Sector Carcelén (Colegio Einstein);Casa; 119500;Carcelen, Norte De Quito;04/abril/2020;;;
+Departamento Dos Hemisferios, 3 Dormitorios, Con Mejoras, Primer Piso $62.000 Negociables, Acepto Biess;Departamentos; 62000;Pomasqui, Norte De Quito;16/marzo/2020;;;
+Bonita Casa Dentro De Conjunto En Venta Sector Conocoto;Casa; 98000;Conocoto, Valle Los Chillos;10/marzo/2020;;;
+Venta Departamento San Camilo, Calderón, Carapungo, Panamerica Norte;Departamentos; 68000;Calderón, Norte De Quito;06/abril/2020;;;
+Venta De Departamento De 143m² Granda Centeno, Quito;Departamentos; 207000;Rumipamba, Centro Norte;10/marzo/2020;;;
+Hermosos Departamentos Y Suites En Venta Sector Privilegiado O;Departamentos; 142000;Rumipamba, Centro Norte;10/marzo/2020;;;
+Vendo Casa En Guayllabamba 170 Mts Y 2950 Mts De Terreno;Casa; 165000;Guayllabamba, Norte De Quito;13/marzo/2020;;;
+Venta Departamento En La Granja, Mariana De Jesús, Cerca Hospital Metropolitano, Universidad Ute, Norte Quito. E;Departamentos; 117000;Rumipamba, Centro Norte;10/marzo/2020;;;
+Venta Lujosa Casa Mitad Del Mundo;Casa; 350000;San Antonio De Pichincha, Norte De Quito;04/abril/2020;;;
+Venta Departamento En El Valle De Tumbaco Cerca De Av. Interoceánica Y Ruta Viva, Sector Ruta Viva;Departamentos; 140000;Tumbaco, Valle Tumbaco;06/abril/2020;;;
+Venta De Casas En Marianitas De Calderon De 85m A 58.000 Aplica Credito Vip;Casa; 62000;Calderón, Norte De Quito;27/marzo/2020;;;
 Venta Dpto. De Lujo, 112 M², 2 Dormitorios, Quito Tenis;Departamentos; 213000;Rumipamba, Centro Norte;30/marzo/2020;;;
 Vendo Casa Conjunto Cordillera Norte De Quito;Casa; 128000;Cochapamba, Centro Norte;15/marzo/2020;;;
-Venta De Departamento De 143m² Granda Centeno, Quito;Departamentos; 207000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Vendo Departamento De 3 Dormitorios Sector Gaspar De Villaroel;Departamentos; 125000;El Batan, Iñaquito, Centro Norte;10/marzo/2020;;;
-Venta Casas Vip Por Estrenar Mitad Del Mundo;Casa; 76323;San Antonio De Pichincha, Norte De Quito;03/abril/2020;;;
-Venta De Departamento, El Bosque, Quito;Departamentos; 145000;Quito Tenis, Centro Norte;10/marzo/2020;;;
 Vendo Casa Rentera 413m Con 2 Dptos Dorado;Casa; 180000;Itchimbía, Centro Colonial;22/marzo/2020;;;
 Vendo Linda Y Acogedora Casa - (La Morita-Tumbaco);Casa; 135000;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Venta Departamento Remodelado Republica Del Salvador, Quito;Departamentos; 175000;La Carolina, Iñaquito, Centro Norte;10/marzo/2020;;;
 Oportunidad Amplio Departamento De Venta, 240 M² En Monteserrin, Norte De Quito;Departamentos; 172500;Monteserrin, Jipijapa, Centro Norte;10/marzo/2020;;;
 Venta Departamento, Sector Universidad Utla;Departamentos; 87000;El Batan, Iñaquito, Centro Norte;19/marzo/2020;;;
-Casa De Venta De 4 Dorm., Estilo Moderno;Casa; 780000;Cumbaya, Valle Tumbaco;01/abril/2020;;;
 Venta Casa Pomasqui Conjunto Sirah;Casa; 82500;Pomasqui, Norte De Quito;29/marzo/2020;;;
 Oportunidad Venta Departamento Bosmediano Y Carlos Guerrero Carolina;Departamentos; 149000;Bellavista, Iñaquito, Centro Norte;01/abril/2020;;;
 Venta Departamento 3d Qanvas Rep. Del Salvador;Departamentos; 271000;Iñaquito, Centro Norte;19/marzo/2020;;;
 Vendo Departamento Sector Conocoto;Departamentos; 58000;Conocoto, Valle Los Chillos;10/marzo/2020;;;
 Vendo Lindo Departamento, El Bosque, 3 Dormitorios, 145000usd;Departamentos; 145000;Cochapamba, Centro Norte;17/marzo/2020;;;
 Quito Tenis Suite De Venta Centro Norte;Departamentos; 93000;Rumipamba, Centro Norte;29/marzo/2020;;;
-Venta De Casas En Marianitas De Calderon De 85m A 58.000 Aplica Credito Vip;Casa; 62000;Calderón, Norte De Quito;27/marzo/2020;;;
 Restaurante - Karaoke En Venta, Sector Atahualpa, La Magdalena, Cerca Al Redondel Atahualpa, Sur De Quito;Casa; 320000;La Magdalena, Sur De Quito;31/marzo/2020;;;
-Venta De Departamento Sector Lomas De Monteserrín Cerca Al Ecopark;Departamentos; 160000;Monteserrin, Jipijapa, Centro Norte;10/marzo/2020;;;
-Departamento Moderno De Lujo En Santa Lucia Alta, Cumbaya, De 3 Dormitorios Con Pergola Y Jacuzzi;Departamentos; 595000;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
 Linda Casa En Condominio De Primera Hilacryl Tumbaco Clima Perfecto-Calientito.;Casa; 300000;Alangasí, Valle Los Chillos;10/marzo/2020;;;
 Casas De Venta En Conjunto, Bbq Cada Una, Mitad Del Mundo;Casa; 104000;Puéllaro, Norte De Quito;10/marzo/2020;;;
-Casa En Venta En Vía Marianitas El Portal, Ism Calderon , Llano Grande, Chico, Calderon, Carapungo;Casa; 72500;Calderón, Norte De Quito;30/marzo/2020;;;
-Venta Departamento En La Granja, Mariana De Jesús, Cerca Hospital Metropolitano, Universidad Ute, Norte Quito. E;Departamentos; 117000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Venta Departamento 3 Habitaciones Incluye Zona Humeda Comunal “San Camilo” Cerca El Portal Shopping Calderón $76.000;Departamentos; 76000;Calderón, Norte De Quito;27/marzo/2020;;;
 Vendo Junto Al Bosque Union Nacional Brasil Y Zamora;Departamentos; 115000;La Concepcion, Concepción, Centro Norte;10/marzo/2020;;;
 Centro Norte, Av Republica. Cerca Al Cinemark;Departamentos; 175000;Rumipamba, Centro Norte;11/marzo/2020;;;
 Casas Nuevas En Calderón - Conjunto Cerrado Con Áreas Infantiles - Seguridad - Crédito Vip - A 7 Minutos De El Portal;Casa; 68990;Calderón, Norte De Quito;26/marzo/2020;;;
 Venta De Casa Al Sur De Quito Sector Ciudadela Ibarra;Casa; 92000;La Ecuatoriana, Sur De Quito;26/marzo/2020;;;
-Vendo Suite Entrega Abril 2022 En Piso Alto Con Balcón;Departamentos; 128074;Iñaquito, Centro Norte;10/marzo/2020;;;
 Casa Rentera, Sector Av. La Prensa Y Sumaco.Remodelada.;Casa; 310000;Concepción, Centro Norte;10/marzo/2020;;;
 Hermoso Penthouse Dúplex Con Maravillosa Vista, Acabados De Primera Y Perfecta Distribución, En Un Edificio Con Excelent;Departamentos; 205000;Quito Tenis, Centro Norte;10/marzo/2020;;;
 En Venta Lujosa Casa 570m2 - Mitad Del Mundo;Casa; 390000;San Antonio De Pichincha, Norte De Quito;23/marzo/2020;;;
@@ -992,7 +990,6 @@ Venta Espectacular Casa La Cascada Iñaquito A 5 Min Del CC Bosque 300.000;Casa; 
 Departamento En Venta El Bosque 4 Dorm.;Departamentos; 150000;Quito Tenis, Centro Norte;10/marzo/2020;;;
 Venta Departamento Lomas Monteserrin , Sector Eko Park, El Ciclista, Academia Cotopaxi, Campo Alegre, Udla;Departamentos; 126000;Iñaquito, Centro Norte;16/marzo/2020;;;
 Vendo Departamento República Del Salvador Y Suiza Departamento 152 M;Departamentos; 215000;Iñaquito, Centro Norte;10/marzo/2020;;;
-Casa Dos Hemisferios, De 2 Pisos, 96m2, Con Varias Mejoras, Perfecto Estado $89.000 Negociables;Casa; 89000;Pomasqui, Norte De Quito;11/marzo/2020;;;
 Venta, Lindo Departamento, Quito Tenis, Cerca Parque Azcunaga;Departamentos; 145000;Rumipamba, Centro Norte;10/marzo/2020;;;
 Exclusivo Departamento De Venta 163 M² Por Estrenar Tumbaco/D. P.;Departamentos; 183735;Tumbaco, Valle Tumbaco;10/marzo/2020;;;
 Venta De Casa Sector El Colibrí - Sangolqui;Casa; 85000;Quito;10/marzo/2020;;;
@@ -1003,10 +1000,13 @@ Casa De Venta En Jardín Del Valle, Monjas, Vía A Los Chillos;Casa; 195000;Puenga
 Puembo, Vía A Arrayanes. Vendo Casa 230 M², 3 Dorm. Con Baños;Casa; 330000;Puembo, Valle Tumbaco;10/marzo/2020;;;
 Departamento Venta Gaspar De Villaroel / 6 De Diciembre / Granados, 105 M2, Parqueo, Quito Norte, 3 Dorm, 847 Usd X M2;Departamentos; 89000;El Batan, Iñaquito, Centro Norte;10/marzo/2020;;;
 Hermosa Casa De Lujo 494,57 M2 / $750,000 - Sector Ponceano Alto;Casa; 750000;Ponceano, Norte De Quito;10/marzo/2020;;;
-Linda Suite En Venta Centro Norte Sector 12 De Octubre J;Departamentos; 90000;Mariscal Sucre, Centro Norte;10/marzo/2020;;;
 De Oportunidad!!!Amplio Departamento Al Sur De Quito. Dos Estacionamientos, Terraza Privada;Departamentos; 60000;La Ecuatoriana, Sur De Quito;10/marzo/2020;;;
 Venta Casa En Conjunto, Sangolqui, Sector Salcoto;Casa; 72000;Quito;10/marzo/2020;;;
 Vendo Casa , Sector El Bosque , Aire Puro, 250 M2 Conjunto;Casa; 235000;Cochapamba, Centro Norte;11/marzo/2020;;;
 Vendo Departamento 2 Dormitorios, Mas Estudio La Carolina;Departamentos; 139000;Iñaquito, Centro Norte;10/marzo/2020;;;
 Amplio Departamento Dúplex En Venta Sector Los Laureles;Departamentos; 160000;Jipijapa, Centro Norte;10/marzo/2020;;;
 Venta Departamento Cumbaya;Departamentos; 269739;Cumbaya, Valle Tumbaco;10/marzo/2020;;;
+Departamento En Venta En El Quito Tenis, 300 M² Excelente, En La Brasil $;Departamentos; 294000;Rumipamba, Centro Norte;10/marzo/2020;;;
+Hermosa Casa En La Armenia II Conjunto Cerrado;Casa; 109490;Conocoto, Valle Los Chillos;10/marzo/2020;;;
+Venta De Casas Por Estrenar En Conjunto Privado De Capelo–Valle De Los Chillos–Sector Sangolquí–Cerca De San Rafael;Casa; 85000;Quito;10/marzo/2020;;;
+Casa De Venta, Alangasi, Barrio Jerusalen, Conj. San Patricio De Ushimana;Casa; 83000;Alangasí, Valle Los Chillos;09/marzo/2020;;;
