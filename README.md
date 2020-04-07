@@ -35,7 +35,7 @@ Google flights: https://www.properati.com
  
 	* scr: Repositorio con el código Python.        
 	* doc: Documento de la práctica de Web Scraping.         
-	* csv: Dataset en formato CSV (Insumo para Machine Learning) y exportado a formato XLSX.    
+	* csv: Dataset en formato CSV (Insumo para Machine Learning) y en formato XLSX de excel.    
 
 
 
