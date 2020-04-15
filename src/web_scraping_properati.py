@@ -32,21 +32,29 @@ from urllib.error import URLError
 from urllib.error import HTTPError
 from datetime import datetime, date, time, timedelta
 import calendar
+import time
 
-# Generamos archivo robots.txt
-robotsTXT = open("robots.txt","w")
+# Condiciona el acceso del Agente al Sitio de Properati
+import requests
+session = requests.Session()
+session.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+response = session.get('https://www.properati.com.ec/robots.txt')
 
-try:
-    html = urlopen('https://www.properati.com.ec/robots.txt')
-except HTTPError as err:
-       print(err)
-except URLError:
-    print('Error de acceso..Web puede haber sido bloqueada')
-else:
-    robots = BeautifulSoup(html.read(),'lxml')
-    robotsTXT.write(str(robots))    
-robotsTXT.close()
-# Finaliza generación de archivo y cierra escritura
+if response == 200 : # devuelve Éxito= 200
+    # Generamos archivo robots.txt
+    robotsTXT = open("robots.txt","w")
+    try:
+        html = urlopen('https://www.properati.com.ec/robots.txt')
+    except HTTPError as err:
+           print(err)
+    except URLError:
+        print('Error de acceso..Web puede haber sido bloqueada')
+    else:
+        robots = BeautifulSoup(html.read(),'lxml')
+        robotsTXT.write(str(robots))    
+    robotsTXT.close()
+   # Finaliza generación de archivo y cierra escritura
+# Fin de control acceso User-Agent al sitio
 
 
 '''MECANICA:
@@ -181,6 +189,7 @@ while Num_Pagina <= 50:
             file.write(descripcion_conjunto+";"+tipo+";"+precio+";"+localizacion+";"+fecha_publicacion+";"+area+";"+num_habitaciones+";"+proy+"\n")
 
     Num_Pagina += 1
+    time.sleep(30)
 
 #Cierra archivo Dataset despúes de escritura
 file.close()
