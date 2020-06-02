@@ -1,0 +1,586 @@
+---
+title: 'Práctica 2: Limpieza y Análisis de Datos'
+author: "Fernando Meza Ibarra y Tania Gualli Culqui"
+date: "Mayo 2020"
+output:
+  pdf_document: 
+    #highlight: zenburn
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+  word_document: default
+  html_document:
+    highlight: default
+    number_sections: yes
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+library(knitr)
+library(lubridate)
+library(VIM)
+library(stringr)
+library(psych)
+library(pROC)
+library(dplyr)
+library(readr)
+library(ggplot2)
+```
+# Detalles de la actividad
+
+## Descripción
+En esta práctica se elabora un caso práctico orientado a aprender a identificar los datos relevantes para un proyecto analítico y usar las herramientas de integración, limpieza, validación y análisis de las mismas.
+
+## Objetivos
+Aprender a aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios o multidisciplinares.
+Saber identificar los datos relevantes y los tratamientos necesarios (integración, limpieza y validación) para llevar a cabo un proyecto analítico.
+Aprender a analizar los datos adecuadamente para abordar la información contenida en los datos.
+Identificar la mejor representación de los resultados para aportar conclusiones sobre el problema planteado en el proceso analítico.
+Actuar con los principios éticos y legales relacionados con la manipulación de datos en función del ámbito de aplicación.
+Desarrollar las habilidades de aprendizaje que les permitan continuar estudiando de un modo que tendrá que ser en gran medida autodirigido o autónomo.
+Desarrollar la capacidad de búsqueda, gestión y uso de información y recursos en el ámbito de la ciencia de datos.
+
+## Competencias
+Capacidad de analizar un problema en el nivel de abstracción adecuado a cada situación y aplicar las habilidades y conocimientos adquiridos para abordarlo y resolverlo.
+Capacidad para aplicar las técnicas específicas de tratamiento de datos (integración, transformación, limpieza y validación) para su posterior análisis.
+
+# Resolución
+
+## Descripción del dataset. 
+El conjunto de datos objeto de análisis se ha obtenido a partir de: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009 en Kaggle y está constituido por 12 características (columnas) que presentan 1599 muestras de vinos (filas o registros).
+
+Los campos de este conjunto de datos son los siguientes:
+
+Variables de entrada (basadas en pruebas fisicoquímicas):  
+1 - acidez fija  
+2 - acidez volátil  
+3 - ácido cítrico  
+4 - azúcar residual  
+5 - cloruros  
+6 - dióxido de azufre libre  
+7 - dióxido de azufre total  
+8 - densidad  
+9 - pH  
+10 - sulfatos  
+11 - alcohol 
+
+Variable de salida (basada en datos sensoriales):  
+12 - calidad (puntuación entre 0 y 10) 
+
+## Importancia y objetivos de los análisis
+
+En los últimos años, el interés por el vino ha aumentado, lo que lleva a crecimiento de la industria del vino. Como consecuencia, las empresas deben  invertir en nuevas tecnologías para mejorar la producción y venta de vino. La certificación de calidad es un paso crucial para ambos procesos y actualmente depende en gran medida de la cata de vinos por expertos humanos. Sin embargo, las evaluaciones se basan en experiencia y conocimiento de los expertos, que pueden ser propensos a factores subjetivos.
+Este trabajo es importante para la industria del vino, pues el enfoque propuesto basado en datos, tiene como objetivo la predicción de preferencias de vino a partir de pruebas analíticas objetivas y por lo tanto se puede integrar en un Sistema de Soporte de Decisión (siglas en inglés, DSS), ayudando a la velocidad y calidad del desempeño del enólogo.
+Por ejemplo, el experto podría repetir la degustación solo si su calificación está lejos de la predicha por el modelo.  El modelo también podría usarse para mejorar la capacitación de estudiantes de enología.
+
+Este estudio de caso será abordado por tareas de regresión, donde cada preferencia de tipo de vino
+se modela en una escala continua, de 0 (muy mal) a 10 (excelente). 
+
+Además, la importancia relativa de las variables de entrada trajo ideas interesantes sobre el impacto de la analítica, dado que algunas variables pueden controlarse en el proceso de producción. Esta información se puede utilizar para mejorar la calidad del vino. Por ejemplo, la concentración de alcohol puede aumentarse o disminuirse mediante el monitoreo de la concentración de azúcar de uva antes de la cosecha. (1)
+
+(1) P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+
+## Análisis descriptivo de los datos
+
+Procedemos a realizar la lectura del fichero en formato CSV en el que se encuentra. El resultado devuelto por la llamada a la función read.csv() será un objeto data.frame:
+
+```{r}
+#Lectura del fichero
+Archivo_Wine_Quality <-"winequality-red.csv"
+datos_vinos <-read.csv(Archivo_Wine_Quality, sep=";",na.strings = "NA")
+head(datos_vinos) #Para confirmar se muestra las primeras filas
+```
+```{r}
+#número total de registros y variables
+str(datos_vinos)
+```
+
+Se confirma que el dataset tiene 1599 registros y 12 variables.
+
+```{r}
+#Tipo de dato asignado a cada campo
+sapply(datos_vinos,class)
+```
+ 
+Se puede observar que los tipos de datos asignados automáticamente por R a las variables, corresponden con el dominio de estas.
+
+# Integración y selección de los datos de interés a analizar.
+Todos los atributos presentes en el conjunto de datos corresponden a las características fisicoquímicas que permiten identificar los diferentes tipos de vinos, por lo que será conveniente incluirlos a todos durante la realización de los análisis.
+
+# Limpieza de los datos
+En esta sección se analizarán si los datos contienen ceros o elementos vacíos, así como valores extremos y cómo gestionar cada uno de estos casos.
+
+## Ceros y elementos vacíos
+Comúnmente, se utilizan los ceros como centinela para indicar la ausencia de ciertos valores.
+Así, se procede a conocer a continuación qué campos contienen elementos vacíos:
+
+
+```{r}
+sapply(datos_vinos, function(x) sum(is.na(x)))
+```
+
+No se observan registros que contengan valores desconocidos para algún campo. 
+En caso de tenerlos una opción podría ser eliminar los registros que incluyen este tipo de valores, pero ello supondría perder información.
+Como alternativa, se podría emplear un métodos de imputación de valores que dependerá de las características de los datos.
+
+## Valores extremos
+Los valores extremos o outliers son aquellos que parecen no ser congruentes sin los comparamos con el resto de los datos. Para identificarlos, podemos hacer uso de dos vías: (1) representar un diagrama de caja por cada variable y ver qué valores distan mucho del rango intercuartílico (la caja) o (2) utilizar la función boxplots.stats() de R.  En este caso se usará la opción 2, que permitirá mostrar los valores atípicos para aquellas variables que los contienen:
+
+```{r}
+boxplot.stats(datos_vinos$fixed.acidity)$out
+```
+```{r}
+boxplot.stats(datos_vinos$volatile.acidity)$out
+```
+```{r}
+boxplot.stats(datos_vinos$citric.acid)$out
+```
+```{r}
+boxplot.stats(datos_vinos$residual.sugar)$out
+```
+```{r}
+boxplot.stats(datos_vinos$chlorides)$out
+```
+```{r}
+boxplot.stats(datos_vinos$free.sulfur.dioxide)$out
+```
+```{r}
+boxplot.stats(datos_vinos$total.sulfur.dioxide)$out
+```
+```{r}
+boxplot.stats(datos_vinos$density)$out
+```
+```{r}
+boxplot.stats(datos_vinos$pH)$out
+```
+```{r}
+boxplot.stats(datos_vinos$sulphates)$out
+```
+```{r}
+boxplot.stats(datos_vinos$alcohol)$out
+```
+
+Dado que los valores de las variables de entrada se obtuvieron mediante pruebas físico - químicas, los valores identificados como extremos podrían ser correctos, por lo tanto, el manejo de estos valores extremos consistirá en simplemente dejarlos como actualmente están recogidos.
+
+# Análisis de los datos.
+## Selección de los grupos de datos que se quieren analizar/comparar (planificación de los análisis a aplicar).
+
+En esta fase es importante identificar los grupos dentro de nuestro conjunto de datos que pueden resultar interesantes para analizar y/o comparar.  Sin embargo debido al desconocimiento de la industria de vinos se torna complicado definirlos. Pese a ello, de manera general puede resultar interesante analizar y/o comparar el nivel de alcohol con respecto a la calidad del vino.
+En la sección de pruebas estadísticas se identifican que variables influyen más en la calidad del vino.
+
+```{r}
+#Verificar el valor de la mediana de la variable alcohol
+summary(datos_vinos$alcohol)
+```
+```{r}
+# Agrupación por nivel de alcohol nivel 1: menor o igual a 10.20, nivel 2:mayor a 10.20
+vinos_alcohol1 <- datos_vinos$alcohol[datos_vinos$alcohol<=10.20]
+vinos_alcohol2 <- datos_vinos$alcohol[datos_vinos$alcohol > 10.20]
+```
+
+
+## Comprobación de la normalidad y homogeneidad de la varianza.
+Para la comprobación de que los valores que toman nuestras variables cuantitativas provienen de una población distribuida normalmente, utilizaremos la prueba de normalidad de Anderson-Darling. Así, se comprueba que para que cada prueba se obtiene un p-valor superior al nivel de significación prefijado alpha = 0,05. Si esto se cumple, entonces se considera que la variable en cuestión sigue una distribución normal.
+
+```{r}
+library(nortest)
+alpha = 0.05
+col.names = colnames(datos_vinos)
+for (i in 1:ncol(datos_vinos)) {
+if (i == 1) cat("Variables que no siguen una distribución normal:\n")
+if (is.integer(datos_vinos[,i]) | is.numeric(datos_vinos[,i])) {
+p_val = ad.test(datos_vinos[,i])$p.value
+if (p_val < alpha) {
+cat(col.names[i])
+# Format output
+if (i < ncol(datos_vinos) - 1) cat(", \n")
+if (i %% 3 == 0) cat("\n")
+}
+}
+}
+```
+
+Como se puede ver todas las variables de este conjunto de datos no siguen una distribución normal.
+
+
+Ahora, pasamos a estudiar la homogeneidad de varianzas mediante la aplicación de un test de Fligner-Killeen. En este caso, estudiaremos esta homogeneidad en cuanto a los grupos conformados por los vinos que presentan nivel de alcohol 1 frente a los vinos que presentan nivel de alcohol 2. En el siguiente test, la hipótesis nula consiste en que ambas varianzas son iguales.
+
+```{r}
+fligner.test(quality ~ alcohol, data = datos_vinos)
+```
+
+Puesto que obtenemos un p-valor menor a 0.05, rechazamos la hipótesis de que las varianzas de ambas muestras son iguales u homogéneas.
+
+# Aplicación de pruebas estadísticas para comparar los grupos de datos. 
+
+En función de los datos y el objetivo del estudio, aplicar pruebas de contraste de hipótesis, correlaciones, regresiones, etc. Aplicar al menos tres métodos de análisis diferentes.
+
+## Identificación de variables que influyen más en la calidad del vino
+En primer lugar, procedemos a realizar un análisis de correlación entre las distintas variables para determinar cuáles de ellas ejercen una mayor influencia sobre en la calidad del vino. Para ello, se utilizará el coeficiente de correlación de Spearman, puesto que hemos visto que tenemos datos que no siguen una distribución normal.
+
+```{r}
+correlaciones <- cor(datos_vinos, method = 'spearman')
+correlaciones
+```
+
+```{r}
+library(corrplot)
+corrplot(correlaciones)
+```
+
+Así, identificamos cuáles son las variables más correlacionadas con la calidad en función de su proximidad con los valores -1 y +1. Con esta consideración se puede observar que las variables más relevantes para la calidad del vino son: volatile.acidity, sulphates y alcohol.
+
+## Prueba de Hipótesis
+
+La segunda prueba estadística que se aplicará consistirá en un contraste de hipótesis sobre dos muestras para determinar si la calidad del vino es superior dependiendo del grado de alcohol. Para ello, tendremos dos muestras: la primera corresponde a los vinos con grado de alcohol menor o igual a 10,20 (Mediana) y, la segunda, con aquellos que presentan un grado de alcohol superior a 10,20.
+Se debe destacar que un test paramétrico como el que a continuación se utiliza necesita que los datos sean normales, si la muestra es de tamaño inferior a 30. Como en nuestro caso, n > 30, el contraste de hipótesis siguiente es válido (aunque podría utilizarse un test no paramétrico como el de Mann-Whitney, que podría resultar ser más eficiente para este caso). 
+
+```{r}
+vinos_alcohol1 <- datos_vinos$alcohol[datos_vinos$alcohol<=10.20]
+vinos_alcohol2 <- datos_vinos$alcohol[datos_vinos$alcohol > 10.20]
+```
+Así, se plantea el siguiente contraste de hipótesis de dos muestras sobre la diferencia de medias, el cual es unilateral atendiendo a la formulación de la hipótesis alternativa:
+H0 : u1 - u2 = 0,  y  H1 : u1 - u2 < 0
+
+Donde u1 es la media de la población de la que se extrae la primera muestra y u2 es la media de la población de la que extrae la segunda. El valor de significación se fija en alpha = 0,05.
+
+```{r}
+t.test(vinos_alcohol1, vinos_alcohol2, alternative = "less")
+```
+
+Puesto que obtenemos un p-valor menor que el valor de significación fijado, rechazamos la hipótesis nula. Por tanto, podemos concluir que, la calidad del vino es superior si éste tiene altos niveles de alcohol.
+
+# Representación de los resultados a partir de tablas y gráficas.
+
+**Tabla de Estadísticas**  
+
+Podemos ver una representación estadística muy completa de nuestro conjunto de datos. Con la función **describe()** podemos explorar el contenido de cualquier dataset y obtener una visión general sobre su estructura.  
+Más allá de ofrecernos una primera mirada a los resultados del estudio, también nos permite identificar cualquier error en la digitación o en la construcción del conjunto de datos.  
+
+Ésta función forma parte de la librería “psych” que entrega los descriptivos de cada una de las variables. En cuanto a la calidad de la base de datos lo más importante es revisar el valor de **n**, que nos indica la cantidad de observaciones que han sido representadas en cada una de las variables (un **n** con valor 0, probablemente refleja un error en la creación de la base de datos) y el rango de respuesta **(min y max)** nos permite apreciar la coherencia de rangos para cada variable, es decir que podríamos detectar errores en la creación del conjunto de datos observando los rangos.  
+
+Además de esto, describe() entrega una buena cantidad de información descriptiva. El **promedio**, la **mediana**, la **desviación estándar** y el **grado de asimetría (skew)**, Si la distribución es simétrica, ambos índices son iguales a 0; si es asimétrica a la derecha, ambos son positivos; y si es asimétrica a la izquierda, ambos índices son negativos, por otro lado, la **Kurtosis** (también conocida como medida de apuntamiento) es una medida estadística, que determina el grado de concentración que presentan los valores de una variable alrededor de la zona central de la distribución de frecuencias. Si este coeficiente es nulo, la distribución se dice normal (similar a la distribución normal de Gauss) y recibe el nombre de mesocúrtica.  
+Si el coeficiente es positivo, la distribución se llama leptocúrtica, más puntiaguda que la anterior. Hay una mayor concentración de los datos en torno a la media.  
+Si el coeficiente es negativo, la distribución se llama platicúrtica y hay una menor concentración de datos en torno a la media. Sería más achatada que la primera.  
+
+
+
+```{r}
+describe(datos_vinos)
+
+```
+
+A continuación veremos como se clasifican los vinos en función de ciertas características específicas de las variables independientes  mismas que inciden en la variable dependiente u objetivo **(quality)**.  
+
+
+**Clasificación del vino por el contenido de grados de alcohol (alcohol)**   
+
+En ocasiones es necesario realizar transformaciones u obtener subconjuntos de los datos para poder responder preguntas de nuestro interés. 
+
+Por ello, se incluye otra etiqueta, que viene siendo uan variable categórica denominada  **(textura)**, que muestra el porcentaje de alcohol en el vino con el fin de agruparlos según su grado de concentración, luego entonces, tenemos 3 grupos:  
+
+**Suave** : Menos de 9  
+**Medio** : Entre 9 y 12  
+**Fuerte**: Más de 12 
+
+Se aprecia el número de observaciones que cumplen con cada agrupación, además de su representación gráfica.  
+
+```{r}
+datos_vinos$textura='' 
+datos_vinos$textura[datos_vinos$alcohol <= 9] ='Suave'
+datos_vinos$textura[datos_vinos$alcohol> 9 & datos_vinos$alcohol <= 12]='Media'
+datos_vinos$textura[datos_vinos$alcohol > 12]='Fuerte'
+datos_vinos$textura=as.factor(datos_vinos$textura)
+table(datos_vinos$textura)
+```
+La representación gráfica es:  
+```{r}
+qplot(x=textura, data = datos_vinos , color = textura)
+```
+  
+**Clasificación del vino por nivel de azúcar residual (residual.sugar)**   
+
+El vino principalmente obtiene su dulzor del azúcar de la uva (glucosa y fructosa) que queda sin fermentar y que llamamos azúcares residuales. Es el dulzor que podemos detectar en la cata de vino.    
+
+**Seco:** el contenido de acidez total expresado en gramos de ácido tartárico por litro no sea inferior en más de 2 gramos al contenido de azúcar residual, podemos decir que es un vino seco. Es decir, cuando la acidez prevalece sobre el contenido azucaroso en esos estándares.    
+
+**Semiseco:** cuando el contenido de acidez total en gramos de ácido tartárico por litro no es inferior en más de 10 gramos al contenido de azúcar residual, hablamos de un vino semiseco.    
+
+**Semidulce:** cuando el contenido de acidez total en gramos de ácido tartárico por litro es mayor a 10 y menor a 45 gramos.  
+
+**Dulce:** cuando el contenido de acidez total en gramos de ácido tartárico por litro es mayor o igual a 45 gramos.
+
+Para ello calculamos la **(acidez total)**, que es la **media de todos los ácidos contenidos en un vino o de la intensidad ácida del mismo**. En el primer caso, la acidez o acidez total se descompone en acidez fija, acidez volátil y la acidez cítrica, y se suele medir en gramos de ácido tartárico por litro.  
+
+Por ello, se incluye otra etiqueta, que viene siendo uan variable categórica denominada  **(nivel_azucar)**.
+
+```{r}
+datos_vinos$acidez_total = ((datos_vinos$fixed.acidity + datos_vinos$volatile.acidity + datos_vinos$citric.acid)/3)
+
+
+datos_vinos$nivel_azucar='' 
+datos_vinos$nivel_azucar[ abs(datos_vinos$residual.sugar - datos_vinos$acidez_total) <= 2] ='Seco'
+datos_vinos$nivel_azucar[abs(datos_vinos$residual.sugar - datos_vinos$acidez_total) > 2 & abs(datos_vinos$residual.sugar - datos_vinos$acidez_total) <= 10] ='Semiseco'
+datos_vinos$nivel_azucar[abs(datos_vinos$residual.sugar - datos_vinos$acidez_total) > 10 & abs(datos_vinos$residual.sugar - datos_vinos$acidez_total) <= 45] ='Semidulce'
+datos_vinos$nivel_azucar[abs(datos_vinos$residual.sugar - datos_vinos$acidez_total) > 45] ='Dulce'
+
+datos_vinos$nivel_azucar=as.factor(datos_vinos$nivel_azucar)
+
+table(datos_vinos$nivel_azucar)
+
+```
+
+Veamos su representación gráfica:  
+```{r}
+qplot(x=nivel_azucar, data = datos_vinos , color = nivel_azucar)
+```
+
+**Clasificación del vino por la cantidad de Dióxido de Azufre Libre (SO2) (free.sulfur.dioxide)**   
+
+Podemos catalogarlos en dos grupos:  
+
+**Vinos Blancos:** El umbral de corrección se sitúa en los **25 miligramos por litro**, siendo necesaria su corrección si su contenido es inferior. En el momento del embotellado se realiza un análisis y se reajusta entre 35 y 40 miligramos por litro. Por supuesto que en zonas donde el pH de los vinos no pasa de 3.5 se reducen un poco estas dosis.  
+
+**Vinos Tintos:** Se suelen mantener con niveles de dióxido de azufre libre entre 25 y 35 miligramos por litro, aumentando la dosis con pH alto.  
+
+En general es conveniete mantenerlos en niveles de **30-35 miligramos de dióxido de azufre libre por litro**. 
+
+Nuestra data muestra promedios por debajo de los valores referidos, esto se debe a, que en la actualidad se tiende a reducir al máximo la adición de dióxido de azufre (sobre todo en el momento del embotellado), debido a los problemas de alergias e intolerancias y a la presión mediática.  
+
+Existen también los Vinos de **Maceración Carbónica**, los cuales pueden llegar a valores de Potencial de Hidrógeno **pH** mayores a 4.0. En nuestra data los valores están por debajo.  
+
+También, se incluye otra etiqueta, que viene siendo uan variable categórica denominada  **(tipo_vino)**.
+
+```{r}
+datos_vinos$tipo_vino='' 
+datos_vinos$tipo_vino[datos_vinos$free.sulfur.dioxide <= 25] ='Vino Blanco'
+datos_vinos$tipo_vino[datos_vinos$free.sulfur.dioxide > 25]='Vino Tinto'
+datos_vinos$tipo_vino=as.factor(datos_vinos$tipo_vino)
+table(datos_vinos$tipo_vino)
+```
+Veamos su representación gráfica:  
+```{r}
+qplot(x=tipo_vino, data = datos_vinos , color = tipo_vino)
+```
+  
+**Gráficos todo en 1**  
+
+Una manera más sencilla de obtener un gráfico de nuestros datos es con la función **ggpairs()** del paquete GGally que utiliza la librería **ggplot**. Aquí la función reconoce el tipo de variable que le ingresamos y selecciona automáticamente el gráfico adecuado. También le podemos indicar si queremos que le asigne un color en los gráficos a partir de una variable categórica que tenemos. Recordemos que el conjunto ya tiene varias variables categóricas, las cuales son: **textura, nivel_azucar y tipo_vino** que clasifica a los vinos según carcaterísticas específicas.   
+
+Cómo es lógico, en éste gráfico se pierde el sentido a medida que aumentamos más variables.  
+```{r}
+library(GGally)
+
+ggpairs(datos_vinos, columns = 8:12,aes(colour = textura))
+
+```
+
+**Comportamiento de Frecuencias**  
+
+Abordemos el comportamiento (frecuencias) de la variable objetivo **(quality)**. Se aprecia que los mayores niveles de calidad estan en índices marcados con **5 y 6**, y en menor cantidad los que tienen valores iguales a **7**.  
+
+
+```{r}
+barplot(table(datos_vinos$quality), main="Niveles de calidad del vino", xlab="Quality",        
+        ylab="Frecuencia",              
+        col="lightblue"                 
+        )
+```
+  
+Cuando las variables son continuas, hacer una tabla de frecuencia es poco práctico y no entrega información útil. Por ello, la solución es hacer un histograma. Los histogramas grafican una tabla de intervalos, donde queremos saber cuántas observaciones tienen puntajes entre 0 y 2, por ejemplo, veamos el caso de la variable (sulphates). 
+
+Se nota qu elas barras están juntas.  
+
+```{r}
+hist(datos_vinos$sulphates,                        
+     main="Histograma escala de sulphates",      
+     xlab="sulphates",                   
+     ylab="Frecuencia",                         
+     col="green"                            
+     )
+```
+ 
+**Cruzar dos tablas de frecuencia**    
+
+Es común querer cruzar dos tablas de frecuencia (crosstabs), lo que se hace simplemente agregando otra variable al comando **table()**.  
+
+```{r}
+table(datos_vinos$textura,datos_vinos$nivel_azucar)
+ 
+```
+
+Veremos un gráfico de barra:  
+
+```{r}
+barplot(table(datos_vinos$textura, datos_vinos$nivel_azucar), legend=TRUE, col=heat.colors(3, alpha=.6))
+```
+
+Ahora veamos esta representación para ver el tipo de vino y los niveles de calidad.  
+
+```{r}
+table(datos_vinos$tipo_vino,datos_vinos$quality)
+```
+
+El gráfico refleja que la mayoría de vinos tienen calidad con textura media, y corresponden al vino blanco.  
+
+```{r}
+barplot(table(datos_vinos$tipo_vino, datos_vinos$quality), legend=TRUE, col= heat.colors(3, alpha=.6))
+```
+
+**Comparación de Grupos**  
+
+Podemos ver en la siguiente tabla una comparación de los promedios de los grupos de vinos por nivel de azucar con respecto a su calidad.  
+  
+```{r}
+tapply(datos_vinos$quality, datos_vinos$nivel_azucar, mean, na.rm=TRUE)
+
+```
+La gráfica indica que los tres grupos guardan un equilibrio con respecto a su calidad (5 y 6).  
+
+```{r}
+barplot(tapply(datos_vinos$quality, datos_vinos$nivel_azucar, mean, na.rm=TRUE),
+        main="Grupos de vino por Nivel de Azúcar ",
+        ylab="Quality",
+        col=heat.colors(3,alpha=.6),
+        ylim=c(1,7),                           
+        xpd=F)      
+```
+
+Finalmente, la función **tapply()** también permite ocupar dos o más factores para definir los grupos. Para ello utilizamos el comando **list()* para hacer una lista con los factores a ocupar.  
+
+El comando de abajo hace una tabla con los promedios de (quality) según (tipo_vino) y (textura) grado alcoholico.  
+
+```{r}
+tapply(datos_vinos$quality, list(datos_vinos$tipo_vino, datos_vinos$textura), mean, na.rm=TRUE)
+```
+
+la gráfica es la siguiente:  
+```{r}
+x = tapply(datos_vinos$quality, list(datos_vinos$tipo_vino, datos_vinos$textura), mean, na.rm=TRUE)
+
+barplot(x,
+        legend=TRUE,        
+        beside=TRUE,
+        main="Calidad del vino según el tipo y grado alcoholico (textura)",
+        ylab="Quality",
+        col=heat.colors(3,alpha=.6),
+        ylim=c(1,7), 
+        xpd=F)
+```
+
+**Tendencia**  
+
+Supongamos que queremos ver la tendencia del vino con textura "Media", para ello se genera un subconjunto del set de datos.  
+
+```{r}
+Tendencia_textura_media <- datos_vinos[datos_vinos$textura == "Media", ]
+
+ggplot(Tendencia_textura_media, aes(x = quality, y = density)) +   geom_point()
+```
+
+El gráfico muestra que la mayoría de los vinos con textura "Media", que son 1421 que constituyen un 89% del total de observaciones.  
+
+Observando el gráfico vemos que la mayoría de los vinos se ratifican con un nivel de calidad entre 5 y 6.
+
+**Tablas utilizando Filtrados**  
+
+A continuació mostramos la manera de aplicar un filtrado al conjunto de datos según los vinos con textura Media. 
+
+Podemos obtener una tabla filtrada con los datos que cumplen esta condición, es decir todos los vinos con textura "Media" y cuya densidad está entre 0.90 y 1 y además tienen una calidad comprendida entre 5 y 7.  
+
+```{r}
+filtra_vinos = filter(datos_vinos, textura == "Media", density > 0.90 & density <= 1.0, quality >= 5 & quality <= 7)
+head(filtra_vinos)
+```
+ 
+**Análisis univariado y plot **   
+
+Para cada variable en el conjunto de datos, trazo su histograma de frecuencia y diagrama de caja, mostrando el cambio de calidad percibida influenciado por cada característica.
+
+
+Vemos la Distribución normal de las Frecuencias.  
+
+```{r}
+
+n1 = qplot(x = fixed.acidity, data = datos_vinos, binwidth = 0.1) +  scale_x_continuous(breaks = seq(4, 16, 1))
+
+n2 = qplot(x = volatile.acidity, data = datos_vinos, binwidth = 0.01) + scale_x_continuous(breaks = seq(0.12, 1.58, 0.1))
+
+n3 = qplot(x = citric.acid, data = datos_vinos, binwidth = 0.01) + scale_x_continuous(breaks = seq(0, 1, 0.2))
+
+n4 = qplot(x = density, data = datos_vinos)
+
+n5 = qplot(x = pH, data = datos_vinos)
+
+n6 = qplot(x = alcohol, data = datos_vinos)
+
+gridExtra::grid.arrange(n1, n2, n3, n4, n5, n6, ncol = 3)
+```
+  
+Las siguientes variables tienen una distribución normal o cercana a la normal: **fixed.acidity, volatile.acidity, density, pH y alcohol**. 
+
+La distribución de la frecuencia de la variable **citric.acid* no es normal.  
+No se transforman estos datos para el propósito del análisis.
+
+
+concluimos la parte de representación mostrando el conjunto de datos con todas las características (variables con un (*), corresponden a variables categóricas).   
+  
+```{r}
+describe(datos_vinos)
+```
+
+# Resolución del problema. A partir de los resultados obtenidos, ¿cuáles son las conclusiones? ¿Los resultados permiten responder al problema?
+
+La preparación de los datos es un aspecto muy importante del análisis y suele ser la fase que lleva más tiempo, consecuentemente hay que tener una serie de conceptos claros, para poder tenerlos en cuenta a la hora de interpretar los resultados analíticos obtenidos.  
+
+Así, debemos considerar los siguientes puntos, para poder abordar el problema:
+
+-Comparar los componentes del mosto (zumo) y del vino.  
+-Evaluar la importancia analítica de los ácidos y realizar el cálculo de la acidez total.  
+-Hacer una valoración parecida con el dióxido de azufre (free.sulfur.dioxide), cuyo uso es generalizado, pero que genera numerosas intolerancias.  
+- Analizar la importancia del control de los azúcares (residual.sugar) y los alcoholes (alcohol), como elementos básicos de los procesos fermentativos y que son mandatorios para obtener el grado de calidad del vino (quality).   
+-Conocer los principios analíticos que se pueden aplicar al conjunto de datos.  
+
+El problema se traduce en analizar si todas las variable predictoras nos inducen a determinar si la variable objetivo **(quality)** tiene el mayor valor.  
+
+Según la data analizada, los valores de la calidad del vino fluctúan en un rango cerrado entre 3 y 8 (siendo 3 igual a menor calidad y 8 a mayor calidad).  
+
+Con los componentes químicos de 1599 observaciones, se ha podido determinar los niveles de calidad a los que corresponden los vinos.  
+
+**Conclusiones**  
+
+1.- Según los análisis, tenemos que la mayoría de los vinos observados tienen nievels de calidad media (entre 5 y 6).  
+
+2.- Se han categorizado a 1313 como "vinos blancos" y 286 como "vinos tintos".  
+
+3.- Tenemos 1445 vinos catalogados como vino tipo "Seco", 8 como "Semidulce y 146 como "Semiseco".  
+
+4.- Según el grado de alcohol, tenemos 1421 con textura "Media", 37 con textura "Suave" y 141 con textura "Fuerte".  
+
+5.- Por la densidad del vino es fuerte (141). Cuanto mayor es el porcentaje de alcohol, menor es la densidad. Es claramente visible que en nuestros datos, los vinos más fuertes tienden a tener una calificación más alta.  
+
+6.- El vino de mejor calidad es el que tiene una combinación perfecta de diferentes componentes químicos.  
+
+7.- Para realizar una análisis mas exhaustivo en el futuro, debemos recopilar más datos sobre vinos de baja calidad y de alta calidad. Así por ejemplo no existen datos de vinos con pH que puedan llegar a valores de 4.0, que dan lugar a los Vinos de Maceración Carbónica.
+
+8.- Si el conjunto de datos tiene más registros tanto en el extremo bajo como en el extremo superior, se puede mejorar la calidad del análisis.  
+
+9.- Podemos estar más seguros acerca de la existencia de una correlación significativa entre algunos componentes químicos y la calidad del vino, así por ejempo: Los componentes de Acidez (fixed.acidity, volatile.acidity, citric.acid) y el azúcar residual (residual.sugar).  
+
+10.- El (alcohol) y el ácido cítrico son dos características que aumentan más la calidad percibida del vino. El pH y la acidez volátil, por el contrario, reducen más la calidad percibida.  
+
+11.- El alcohol y los sulfatos, junto con otras componentes químicos incrementan la calidad.  
+
+12.- Como conclusión final tenemos que en función del grado de (alcohol), el 89% de los vinos tienen calidad **Media**, 2% con calidad **Fuerte** y 9% con calidad **Suave**.  
+
+
+**Fin de práctica 2**  
+
+
